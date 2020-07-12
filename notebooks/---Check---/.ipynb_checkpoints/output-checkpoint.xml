@@ -1,0 +1,1360 @@
+<?xml version="1.0"?>
+<!DOCTYPE MacsML>
+<MacsML>
+	<IDs> 113744 ; 0 </IDs>
+	<MacsInstrument> Canc fix leg rng on CRS </MacsInstrument>
+	<ProcessesList>
+		<NumberOfElements> 2 </NumberOfElements>
+		<Processes>
+			<Process>
+				<ProcessLabel>KRW</ProcessLabel>
+				<ProcessMarket>Unknown</ProcessMarket>
+				<DisplayLabel>KRW</DisplayLabel>
+				<FactorsList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<VolatilityCurve>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 1 </NumberOfElements>
+									<Buckets>  0.0000000000000 </Buckets>
+									<Values>  0.0000000000000 </Values>
+								</OneDCurve>
+							</VolatilityCurve>
+							<MeanRR>  0.0300000000000</MeanRR>
+						</Factor>
+					</Factors>
+				</FactorsList>
+				<FactorsCorrelations> 0.0000000000000000 ; 0.0000000000000000 ; 0.0000000000000000 </FactorsCorrelations>
+				<CalibrationBasket>
+					<CalibrationStatus> Ok </CalibrationStatus>
+					<CalMeanR> BootstrapOnly </CalMeanR>
+					<UseAdjusters> 0 </UseAdjusters>
+					<FBestFitLevel> -1 </FBestFitLevel>
+					<SBestFitLevel> -1 </SBestFitLevel>
+					<FBootstrapLevel> 0 </FBootstrapLevel>
+					<SBootstrapLevel> 1 </SBootstrapLevel>
+					<FAdjusterLevel> 0 </FAdjusterLevel>
+					<SAdjusterLevel> 0 </SAdjusterLevel>
+					<MaxAdjusterStdDev> 0.00 </MaxAdjusterStdDev>
+					<CalCorr> TerminalCorrel </CalCorr>
+					<CalAnalysis> 1 </CalAnalysis>
+					<CalibrateSkew> 0 </CalibrateSkew>
+					<ANSLinearInterpolation> 0 </ANSLinearInterpolation>
+					<CmsLevels> 0  ;  0  ;  0  ;  0  ;  0 </CmsLevels>
+					<CmsReplicationSwapRateModel> Linear </CmsReplicationSwapRateModel>
+					<CalibrationLevelDescriptionList>
+						<CalibrationLevelDescription>0 ; Coterminal ; OnExercizeDate </CalibrationLevelDescription>
+					</CalibrationLevelDescriptionList>
+					<NumberOfElements> 4 </NumberOfElements>
+					<CalibrationInstruments>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   0.9835616438356  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2354565217391  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<CalInstStatus> Skipped </CalInstStatus>
+							<CalibratedPremium>   0.0000000000000  </CalibratedPremium>
+							<CalibratedVolatility>   0.6035954365386  </CalibratedVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>  -0.0000000000000  </SpotSwapRate>
+								<FixLeg>   3.8152639665510  </FixLeg>
+								<FwdSwapRateCmsRep>  -0.0000000000000  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 7 </FlowsNb>
+							<Flows>
+								<Flow>   0.9863013698630 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   1.0027397260274 ;  -0.0000000000000 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   2.0027397260274 ;  -0.0000000000000 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   3.0082191780822 ;  -0.0000000000000 ;   1.0054794520548 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;  -0.0000000000000 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;  -0.0000000000000 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   1.9835616438356  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2289836956522  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<CalInstStatus> Skipped </CalInstStatus>
+							<CalibratedPremium>   0.0000000000000  </CalibratedPremium>
+							<CalibratedVolatility>   0.0000000000000  </CalibratedVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>  -0.0000000000000  </SpotSwapRate>
+								<FixLeg>   2.8343265391301  </FixLeg>
+								<FwdSwapRateCmsRep>  -0.0000000000000  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 6 </FlowsNb>
+							<Flows>
+								<Flow>   1.9917808219178 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   2.0027397260274 ;  -0.0000000000000 ;   0.0109589041096 ; FixFleg </Flow>
+								<Flow>   3.0082191780822 ;  -0.0000000000000 ;   1.0054794520548 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;  -0.0000000000000 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;  -0.0000000000000 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   2.9890410958904  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2304835616438  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<CalInstStatus> Skipped </CalInstStatus>
+							<CalibratedPremium>   0.0000000000000  </CalibratedPremium>
+							<CalibratedVolatility>   0.0000000000000  </CalibratedVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>  -0.0000000000000  </SpotSwapRate>
+								<FixLeg>   1.8760773087711  </FixLeg>
+								<FwdSwapRateCmsRep>  -0.0000000000000  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 5 </FlowsNb>
+							<Flows>
+								<Flow>   2.9917808219178 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   3.0082191780822 ;  -0.0000000000000 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;  -0.0000000000000 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;  -0.0000000000000 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   3.9863013698630  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2379523160763  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<CalInstStatus> Skipped </CalInstStatus>
+							<CalibratedPremium>   0.0000000000000  </CalibratedPremium>
+							<CalibratedVolatility>   0.0000000000000  </CalibratedVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>  -0.0000000000000  </SpotSwapRate>
+								<FixLeg>   0.9378667345624  </FixLeg>
+								<FwdSwapRateCmsRep>  -0.0000000000000  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 4 </FlowsNb>
+							<Flows>
+								<Flow>   3.9890410958904 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   4.0054794520548 ;  -0.0000000000000 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;  -0.0000000000000 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+					</CalibrationInstruments>
+				</CalibrationBasket>
+				<Beta>0.000000</Beta>
+				<CapSmile>0</CapSmile>
+				<VolType> VolFwdFwd </VolType>
+				<ModelType> HW </ModelType>
+				<PositiveRates>0</PositiveRates>
+				<AssetType> Rate </AssetType>
+				<AssetProxyType> Rate </AssetProxyType>
+				<IsRisky> No </IsRisky>
+				<DSCCreditBased> 0 </DSCCreditBased>
+			</Process>
+			<Process>
+				<ProcessLabel>KRW : NK_CMT_FWD</ProcessLabel>
+				<ProcessMarket>Unknown</ProcessMarket>
+				<DisplayLabel>KRW : NK_CMT_FWD</DisplayLabel>
+				<FactorsList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<VolatilityCurve>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 6 </NumberOfElements>
+									<Buckets>  0.0000000000000  ;   0.9835616438356  ;   1.9835616438356  ;   2.9890410958904  ;   3.9863013698630  ;  33.9863013698630 </Buckets>
+									<Values>  0.0053481878039  ;   0.0053481878039  ;   0.0055671449540  ;   0.0066826304598  ;   0.0064936089788  ;   0.0064936089788 </Values>
+								</OneDCurve>
+							</VolatilityCurve>
+							<MeanRR>  0.0300000000000</MeanRR>
+						</Factor>
+					</Factors>
+				</FactorsList>
+				<FactorsCorrelations> 0.0000000000000000 ; 0.0000000000000000 ; 0.0000000000000000 </FactorsCorrelations>
+				<CalibrationBasket>
+					<CalibrationStatus> Ok </CalibrationStatus>
+					<CalMeanR> BootstrapOnly </CalMeanR>
+					<UseAdjusters> 0 </UseAdjusters>
+					<FBestFitLevel> -1 </FBestFitLevel>
+					<SBestFitLevel> -1 </SBestFitLevel>
+					<FBootstrapLevel> 0 </FBootstrapLevel>
+					<SBootstrapLevel> -1 </SBootstrapLevel>
+					<FAdjusterLevel> 0 </FAdjusterLevel>
+					<SAdjusterLevel> -1 </SAdjusterLevel>
+					<MaxAdjusterStdDev> 0.00 </MaxAdjusterStdDev>
+					<CalCorr> TerminalCorrel </CalCorr>
+					<CalAnalysis> 1 </CalAnalysis>
+					<CalibrateSkew> 0 </CalibrateSkew>
+					<ANSLinearInterpolation> 0 </ANSLinearInterpolation>
+					<CmsLevels> 0  ;  0  ;  0  ;  0  ;  0 </CmsLevels>
+					<CmsReplicationSwapRateModel> Linear </CmsReplicationSwapRateModel>
+					<CalibrationLevelDescriptionList>
+						<CalibrationLevelDescription>0 ; Coterminal ; OnExercizeDate </CalibrationLevelDescription>
+					</CalibrationLevelDescriptionList>
+					<NumberOfElements> 4 </NumberOfElements>
+					<CalibrationInstruments>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   0.9835616438356  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2354565217391  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<BlackPrice>   0.0075327993218  </BlackPrice>
+							<CalInstStatus> Ok </CalInstStatus>
+							<CalibratedPremium>   0.0075327993218  </CalibratedPremium>
+							<CalibratedVolatility>   0.2354565217391  </CalibratedVolatility>
+							<TargetVolatility>   0.2354565217391  </TargetVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>   0.0215370940537  </SpotSwapRate>
+								<FixLeg>   3.7629941193884  </FixLeg>
+								<FwdSwapRateCmsRep>   0.0215370940537  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 7 </FlowsNb>
+							<Flows>
+								<Flow>   0.9863013698630 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   1.0027397260274 ;   0.0003540344228 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   2.0027397260274 ;   0.0215370940537 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   3.0082191780822 ;   0.0216551055280 ;   1.0054794520548 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;   0.0214780883166 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   0.0215370940537 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   1.9835616438356  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2289836956522  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<BlackPrice>   0.0081192798042  </BlackPrice>
+							<CalInstStatus> Ok </CalInstStatus>
+							<CalibratedPremium>   0.0081192797989  </CalibratedPremium>
+							<CalibratedVolatility>   0.2289836955029  </CalibratedVolatility>
+							<TargetVolatility>   0.2289836956522  </TargetVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>   0.0227107131798  </SpotSwapRate>
+								<FixLeg>   2.7907956338743  </FixLeg>
+								<FwdSwapRateCmsRep>   0.0227107131798  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 6 </FlowsNb>
+							<Flows>
+								<Flow>   1.9917808219178 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   2.0027397260274 ;   0.0002488845280 ;   0.0109589041096 ; FixFleg </Flow>
+								<Flow>   3.0082191780822 ;   0.0228351554438 ;   1.0054794520548 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;   0.0226484920478 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   0.0227107131798 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   2.9890410958904  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2304835616438  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<BlackPrice>   0.0071628977436  </BlackPrice>
+							<CalInstStatus> Ok </CalInstStatus>
+							<CalibratedPremium>   0.0071628977402  </CalibratedPremium>
+							<CalibratedVolatility>   0.2304835615340  </CalibratedVolatility>
+							<TargetVolatility>   0.2304835616438  </TargetVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>   0.0246222714681  </SpotSwapRate>
+								<FixLeg>   1.8420881214027  </FixLeg>
+								<FwdSwapRateCmsRep>   0.0246222714681  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 5 </FlowsNb>
+							<Flows>
+								<Flow>   2.9917808219178 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   3.0082191780822 ;   0.0004047496680 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   4.0054794520548 ;   0.0245548131901 ;   0.9972602739726 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   0.0246222714681 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+						<CalibrationInstrument>
+							<Type> Instrument </Type>
+							<OptionType> AssetCall </OptionType>
+							<CalibrationLevel> 0 </CalibrationLevel>
+							<OptionExpiry>   3.9863013698630  </OptionExpiry>
+							<ForwardDate>   0.0000000000000  </ForwardDate>
+							<OptionDelivery>   0.0000000000000  </OptionDelivery>
+							<BlackVol>   0.2379523160763  </BlackVol>
+							<BlackVolSlope>   0.0000000000000  </BlackVolSlope>
+							<ExoticUnderlying> 0 ;   0.0000000000000 ;    0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 ;   0.0000000000000 </ExoticUnderlying>
+							<ExoticPremium>    0.0000000000000 ;    0.0000000000000  </ExoticPremium>
+							<Weight>   0.0000000000000  </Weight>
+							<PayReceive> Receiver </PayReceive>
+							<CalInstKType> ATM </CalInstKType>
+							<BlackPrice>   0.0042364996625  </BlackPrice>
+							<CalInstStatus> Ok </CalInstStatus>
+							<CalibratedPremium>   0.0042364996699  </CalibratedPremium>
+							<CalibratedVolatility>   0.2379523164997  </CalibratedVolatility>
+							<TargetVolatility>   0.2379523160763  </TargetVolatility>
+							<CalInstTenor> 3 </CalInstTenor>
+							<SwapRateInfo>
+								<SpotSwapRate>   0.0245607304146  </SpotSwapRate>
+								<FixLeg>   0.9186495052895  </FixLeg>
+								<FwdSwapRateCmsRep>   0.0245607304146  </FwdSwapRateCmsRep>
+								<FwdSwapRateModel>   0.0000000000000  </FwdSwapRateModel>
+							</SwapRateInfo>
+							<FlowsNb> 4 </FlowsNb>
+							<Flows>
+								<Flow>   3.9890410958904 ;  -1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+								<Flow>   4.0054794520548 ;   0.0004037380342 ;   0.0164383561644 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   0.0245607304146 ;   1.0000000000000 ; FixFleg </Flow>
+								<Flow>   5.0054794520548 ;   1.0000000000000 ;   0.0000000000000 ; FloatingLeg </Flow>
+							</Flows>
+						</CalibrationInstrument>
+					</CalibrationInstruments>
+				</CalibrationBasket>
+				<Beta>0.000000</Beta>
+				<CapSmile>0</CapSmile>
+				<VolType> VolFwdFwd </VolType>
+				<ModelType> HW </ModelType>
+				<PositiveRates>0</PositiveRates>
+				<AssetType> Rate </AssetType>
+				<AssetProxyType> Rate </AssetProxyType>
+				<IsRisky> No </IsRisky>
+				<DSCCreditBased> 0 </DSCCreditBased>
+			</Process>
+		</Processes>
+	</ProcessesList>
+	<CrossCorrelationList>
+		<NumberOfElements> 3 </NumberOfElements>
+		<CrossCorrelations>
+			<CrossCorrelation>
+				<Process1>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 0 </ProcessIndex>
+				</Process1>
+				<Process2>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 0 </ProcessIndex>
+				</Process2>
+				<FactorList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<Factor1> 0 </Factor1>
+							<Factor2> 0 </Factor2>
+							<InstantaneousCorrelation>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 2 </NumberOfElements>
+									<Buckets>  0.0000000000000  ;  35.0000000000000 </Buckets>
+									<Values>  1.0000000000000  ;   1.0000000000000 </Values>
+								</OneDCurve>
+							</InstantaneousCorrelation>
+						</Factor>
+					</Factors>
+				</FactorList>
+			</CrossCorrelation>
+			<CrossCorrelation>
+				<Process1>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 0 </ProcessIndex>
+				</Process1>
+				<Process2>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW : NK_CMT_FWD</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 1 </ProcessIndex>
+				</Process2>
+				<FactorList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<Factor1> 0 </Factor1>
+							<Factor2> 0 </Factor2>
+							<InstantaneousCorrelation>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 2 </NumberOfElements>
+									<Buckets>  0.0000000000000  ;  35.0000000000000 </Buckets>
+									<Values>  0.0000000000000  ;   0.9500000000000 </Values>
+								</OneDCurve>
+							</InstantaneousCorrelation>
+						</Factor>
+					</Factors>
+				</FactorList>
+			</CrossCorrelation>
+			<CrossCorrelation>
+				<Process1>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW : NK_CMT_FWD</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 1 </ProcessIndex>
+				</Process1>
+				<Process2>
+					<AssetType> Rate </AssetType>
+					<ProcessLabel>KRW : NK_CMT_FWD</ProcessLabel>
+					<ModelType> HW </ModelType>
+					<ProcessIndex> 1 </ProcessIndex>
+				</Process2>
+				<FactorList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<Factors>
+						<Factor>
+							<Factor1> 0 </Factor1>
+							<Factor2> 0 </Factor2>
+							<InstantaneousCorrelation>
+								<OneDCurve>
+									<InterpolationMethod> PieceWise </InterpolationMethod>
+									<NumberOfElements> 2 </NumberOfElements>
+									<Buckets>  0.0000000000000  ;  35.0000000000000 </Buckets>
+									<Values>  1.0000000000000  ;   1.0000000000000 </Values>
+								</OneDCurve>
+							</InstantaneousCorrelation>
+						</Factor>
+					</Factors>
+				</FactorList>
+			</CrossCorrelation>
+		</CrossCorrelations>
+	</CrossCorrelationList>
+	<WorkOnGpu> No </WorkOnGpu>
+	<QueriesList>
+		<NumberOfElements> 1 </NumberOfElements>
+		<Queries>
+			<Query>
+				<QRType> Npv </QRType>
+				<QRAssetType> Rate </QRAssetType>
+				<QRAsset> 0 </QRAsset>
+				<QRLevel> 0 </QRLevel>
+				<QRCalibrate> 1 </QRCalibrate>
+				<QueryGenerateAnalyticalSns> 0 </QueryGenerateAnalyticalSns>
+				<ExcludeAnalyticalSnsCompuation> 0 </ExcludeAnalyticalSnsCompuation>
+				<TermStructureAsOneBump> 0 </TermStructureAsOneBump>
+				<SausageMode> 0 </SausageMode>
+				<QRResultsList>
+					<NumberOfElements> 1 </NumberOfElements>
+					<QRResults>
+						<QRResult>
+							<QRResultID> 0 </QRResultID>
+							<VariablesList>
+								<NumberOfElements> 4 </NumberOfElements>
+								<Variables>
+									<Variable>
+										<VariableDescription>CalcPeriod0 ; NDiscounted ; Variable ; Double </VariableDescription>
+										<ComputeValue> Yes </ComputeValue>
+										<ComputeExpectationArray> No </ComputeExpectationArray>
+										<ComputeVarianceArray> No </ComputeVarianceArray>
+										<VariableValue>   0.0000000000000 </VariableValue>
+										<VariableSns>
+											<NumberOfElements> 1 </NumberOfElements>
+											<VariableSnsList>
+												<ASns> 0 ; 0 ; 10 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ;   0.0000000000000  </ASns>
+											</VariableSnsList>
+										</VariableSns>
+									</Variable>
+									<Variable>
+										<VariableDescription>Exercize ; Discounted ; Contract ; Double </VariableDescription>
+										<ComputeValue> Yes </ComputeValue>
+										<ComputeExpectationArray> No </ComputeExpectationArray>
+										<ComputeVarianceArray> No </ComputeVarianceArray>
+										<VariableValue> -75979.3517819805420 </VariableValue>
+										<VariableSns>
+											<NumberOfElements> 1 </NumberOfElements>
+											<VariableSnsList>
+												<ASns> 0 ; 0 ; 10 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ;   0.0040550662599  </ASns>
+											</VariableSnsList>
+										</VariableSns>
+									</Variable>
+									<Variable>
+										<VariableDescription>Option ; Discounted ; Contract ; Double </VariableDescription>
+										<ComputeValue> Yes </ComputeValue>
+										<ComputeExpectationArray> No </ComputeExpectationArray>
+										<ComputeVarianceArray> No </ComputeVarianceArray>
+										<VariableValue> 75979.3517819805420 </VariableValue>
+										<MCExercizeProbabilities>
+											<OneDCurve>
+												<InterpolationMethod> PieceWise </InterpolationMethod>
+												<NumberOfElements> 4 </NumberOfElements>
+												<Buckets>  0.9835616438356  ;   1.9835616438356  ;   2.9890410958904  ;   3.9863013698630 </Buckets>
+												<Values>  1.0000000000000  ;   0.0000000000000  ;   0.0000000000000  ;   0.0000000000000 </Values>
+											</OneDCurve>
+										</MCExercizeProbabilities>
+										<VariableSns>
+											<NumberOfElements> 1 </NumberOfElements>
+											<VariableSnsList>
+												<ASns> 0 ; 0 ; 10 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ;   0.0040550662599  </ASns>
+											</VariableSnsList>
+										</VariableSns>
+									</Variable>
+									<Variable>
+										<VariableDescription>Underlying ; Discounted ; Contract ; Double </VariableDescription>
+										<ComputeValue> Yes </ComputeValue>
+										<ComputeExpectationArray> No </ComputeExpectationArray>
+										<ComputeVarianceArray> No </ComputeVarianceArray>
+										<VariableValue> -88089.7961693265534 </VariableValue>
+										<MCDensity>
+											<NumberOfElements> 50 </NumberOfElements>
+											<Density>
+												<FixingDate>   4.9972602739726 </FixingDate>
+												<PayDate>   4.9972600000000 </PayDate>
+												<IDLeg> 5 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -18448.1296713171068 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>-18448.1297848868926  ; -18632.6110827357588 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   4.7452054794521 </FixingDate>
+												<PayDate>   4.7452050000000 </PayDate>
+												<IDLeg> 1020 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000013424 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1817574251587  ;  -0.1707219197342  ;  -0.1596864143096  ;  -0.1486509088851  ;  -0.1376154034605  ;  -0.1265798980360  ;  -0.1155443926114  ;  -0.1045088871869  ;  -0.0934733817623  ;  -0.0824378763378  ;  -0.0714023709132  ;  -0.0603668654886  ;  -0.0493313600641  ;  -0.0382958546395  ;  -0.0272603492150  ;  -0.0162248437904  ;  -0.0051893383659  ;   0.0058461670587  ;   0.0168816724832  ;   0.0279171779078  ;   0.0389526833323  ;   0.0499881887569  ;   0.0610236941815  ;   0.0720591996060  ;   0.0830947050306  ;   0.0941302104551  ;   0.1051657158797  ;   0.1162012213042  ;   0.1272367267288  ;   0.1382722321533  ;   0.1493077375779  ;   0.1603432430024  ;   0.1713787484270 </Buckets>
+													<Values>  0.0001220852155  ;   0.0000610426077  ;   0.0003662556464  ;   0.0010987669393  ;   0.0021975338786  ;   0.0036625564644  ;   0.0053717494811  ;   0.0108045415700  ;   0.0189232083995  ;   0.0224026370407  ;   0.0352215846661  ;   0.0481015748993  ;   0.0597607129777  ;   0.0733732145037  ;   0.0853375656208  ;   0.0919301672567  ;   0.0882065681846  ;   0.0897326333781  ;   0.0844829691124  ;   0.0738005127579  ;   0.0602490538396  ;   0.0465144670980  ;   0.0340007325113  ;   0.0253937248199  ;   0.0161762910512  ;   0.0096447320230  ;   0.0065926016359  ;   0.0029910877793  ;   0.0018923208399  ;   0.0006714686851  ;   0.0007325112929  ;   0.0001831278232  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   4.4958904109589 </FixingDate>
+												<PayDate>   4.4958900000000 </PayDate>
+												<IDLeg> 1019 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000012145 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1892676260100  ;  -0.1781856928949  ;  -0.1671037597798  ;  -0.1560218266647  ;  -0.1449398935496  ;  -0.1338579604345  ;  -0.1227760273194  ;  -0.1116940942043  ;  -0.1006121610893  ;  -0.0895302279742  ;  -0.0784482948591  ;  -0.0673663617440  ;  -0.0562844286289  ;  -0.0452024955138  ;  -0.0341205623987  ;  -0.0230386292836  ;  -0.0119566961685  ;  -0.0008747630534  ;   0.0102071700617  ;   0.0212891031768  ;   0.0323710362919  ;   0.0434529694070  ;   0.0545349025221  ;   0.0656168356372  ;   0.0766987687523  ;   0.0877807018674  ;   0.0988626349825  ;   0.1099445680976  ;   0.1210265012127  ;   0.1321084343278  ;   0.1431903674429  ;   0.1542723005580  ;   0.1653542336731 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0000000000000  ;   0.0003662556464  ;   0.0007325112929  ;   0.0027469173483  ;   0.0034794286412  ;   0.0068367720669  ;   0.0112928824319  ;   0.0177633988524  ;   0.0275912586986  ;   0.0404102063240  ;   0.0512147478940  ;   0.0654987181052  ;   0.0788670492003  ;   0.0924795507264  ;   0.0938835307044  ;   0.0941887437431  ;   0.0931510194115  ;   0.0787449639849  ;   0.0667806128678  ;   0.0564644121597  ;   0.0409595897937  ;   0.0286900256379  ;   0.0206934440239  ;   0.0117812232939  ;   0.0070809424979  ;   0.0037235990722  ;   0.0025637895251  ;   0.0011598095471  ;   0.0003662556464  ;   0.0003662556464  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   4.2465753424658 </FixingDate>
+												<PayDate>   4.2465750000000 </PayDate>
+												<IDLeg> 1018 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000011418 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1891713807045  ;  -0.1779876115451  ;  -0.1668038423857  ;  -0.1556200732262  ;  -0.1444363040668  ;  -0.1332525349074  ;  -0.1220687657480  ;  -0.1108849965886  ;  -0.0997012274291  ;  -0.0885174582697  ;  -0.0773336891103  ;  -0.0661499199509  ;  -0.0549661507914  ;  -0.0437823816320  ;  -0.0325986124726  ;  -0.0214148433132  ;  -0.0102310741538  ;   0.0009526950057  ;   0.0121364641651  ;   0.0233202333245  ;   0.0345040024839  ;   0.0456877716434  ;   0.0568715408028  ;   0.0680553099622  ;   0.0792390791216  ;   0.0904228482810  ;   0.1016066174405  ;   0.1127903865999  ;   0.1239741557593  ;   0.1351579249187  ;   0.1463416940782  ;   0.1575254632376  ;   0.1687092323970 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000000000000  ;   0.0000610426077  ;   0.0001220852155  ;   0.0007325112929  ;   0.0018312782322  ;   0.0041508973263  ;   0.0060432181663  ;   0.0126358198022  ;   0.0157489927970  ;   0.0302771334391  ;   0.0401049932853  ;   0.0544500061043  ;   0.0694054450006  ;   0.0832621169576  ;   0.0893053351239  ;   0.1027347088268  ;   0.0935172750580  ;   0.0924185081187  ;   0.0819191795874  ;   0.0669637406910  ;   0.0501159809547  ;   0.0385789280918  ;   0.0262483213283  ;   0.0177023562447  ;   0.0096447320230  ;   0.0059821755585  ;   0.0031131729948  ;   0.0018312782322  ;   0.0003662556464  ;   0.0004272982542  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.9972602739726 </FixingDate>
+												<PayDate>   3.9972600000000 </PayDate>
+												<IDLeg> 1017 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000010386 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1761695954407  ;  -0.1650763449691  ;  -0.1539830944976  ;  -0.1428898440260  ;  -0.1317965935544  ;  -0.1207033430828  ;  -0.1096100926112  ;  -0.0985168421397  ;  -0.0874235916681  ;  -0.0763303411965  ;  -0.0652370907249  ;  -0.0541438402533  ;  -0.0430505897818  ;  -0.0319573393102  ;  -0.0208640888386  ;  -0.0097708383670  ;   0.0013224121046  ;   0.0124156625761  ;   0.0235089130477  ;   0.0346021635193  ;   0.0456954139909  ;   0.0567886644625  ;   0.0678819149340  ;   0.0789751654056  ;   0.0900684158772  ;   0.1011616663488  ;   0.1122549168204  ;   0.1233481672919  ;   0.1344414177635  ;   0.1455346682351  ;   0.1566279187067  ;   0.1677211691783  ;   0.1788144196498 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001220852155  ;   0.0001220852155  ;   0.0004883408619  ;   0.0020144060554  ;   0.0026248321328  ;   0.0072030277133  ;   0.0115370528629  ;   0.0177633988524  ;   0.0269197900134  ;   0.0396776950311  ;   0.0560371139055  ;   0.0712367232328  ;   0.0814308387254  ;   0.0952875106825  ;   0.1005982175559  ;   0.0971798315224  ;   0.0915639116103  ;   0.0835673299963  ;   0.0663533146136  ;   0.0479794896838  ;   0.0389451837382  ;   0.0250885117812  ;   0.0155658649738  ;   0.0098889024539  ;   0.0051275790502  ;   0.0028690025638  ;   0.0016481504090  ;   0.0007935539006  ;   0.0000610426077  ;   0.0001831278232  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.9972602739726 </FixingDate>
+												<PayDate>   3.9972600000000 </PayDate>
+												<IDLeg> 4 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -18758.4378826233042 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-18758.4519135511837  ; -18758.4510431032759  ; -18758.4501726553681  ; -18758.4493022074603  ; -18758.4484317595525  ; -18758.4475613116483  ; -18758.4466908637405  ; -18758.4458204158327  ; -18758.4449499679249  ; -18758.4440795200171  ; -18758.4432090721093  ; -18758.4423386242015  ; -18758.4414681762937  ; -18758.4405977283859  ; -18758.4397272804817  ; -18758.4388568325739  ; -18758.4379863846661  ; -18758.4371159367583  ; -18758.4362454888505  ; -18758.4353750409427  ; -18758.4345045930349  ; -18758.4336341451271  ; -18758.4327636972230  ; -18758.4318932493152  ; -18758.4310228014074  ; -18758.4301523534996  ; -18758.4292819055918  ; -18758.4284114576840  ; -18758.4275410097762  ; -18758.4266705618684  ; -18758.4258001139606  ; -18758.4249296660564  ; -18758.4240592181486 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001831278232  ;   0.0000610426077  ;   0.0007935539006  ;   0.0016481504090  ;   0.0028690025638  ;   0.0051275790502  ;   0.0098889024539  ;   0.0155658649738  ;   0.0250885117812  ;   0.0389451837382  ;   0.0479794896838  ;   0.0663533146136  ;   0.0835673299963  ;   0.0915639116103  ;   0.0971798315224  ;   0.1005982175559  ;   0.0952875106825  ;   0.0814308387254  ;   0.0712367232328  ;   0.0560371139055  ;   0.0396776950311  ;   0.0269197900134  ;   0.0177633988524  ;   0.0115370528629  ;   0.0072030277133  ;   0.0026248321328  ;   0.0020144060554  ;   0.0004883408619  ;   0.0001220852155  ;   0.0001220852155  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.7479452054795 </FixingDate>
+												<PayDate>   3.7479450000000 </PayDate>
+												<IDLeg> 1016 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000011301 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1535780251912  ;  -0.1439984643700  ;  -0.1344189035488  ;  -0.1248393427277  ;  -0.1152597819065  ;  -0.1056802210853  ;  -0.0961006602642  ;  -0.0865210994430  ;  -0.0769415386218  ;  -0.0673619778007  ;  -0.0577824169795  ;  -0.0482028561583  ;  -0.0386232953371  ;  -0.0290437345160  ;  -0.0194641736948  ;  -0.0098846128736  ;  -0.0003050520525  ;   0.0092745087687  ;   0.0188540695899  ;   0.0284336304110  ;   0.0380131912322  ;   0.0475927520534  ;   0.0571723128746  ;   0.0667518736957  ;   0.0763314345169  ;   0.0859109953381  ;   0.0954905561592  ;   0.1050701169804  ;   0.1146496778016  ;   0.1242292386227  ;   0.1338087994439  ;   0.1433883602651  ;   0.1529679210863 </Buckets>
+													<Values>  0.0002441704310  ;   0.0004272982542  ;   0.0009156391161  ;   0.0014650225858  ;   0.0028690025638  ;   0.0064094738127  ;   0.0103772433158  ;   0.0153216945428  ;   0.0203271883775  ;   0.0305823464778  ;   0.0415089732633  ;   0.0543889634965  ;   0.0664143572213  ;   0.0747771944817  ;   0.0828348187035  ;   0.0890611646930  ;   0.0875350994995  ;   0.0852154804053  ;   0.0764253448907  ;   0.0627518007569  ;   0.0550604321817  ;   0.0425466975949  ;   0.0325357099255  ;   0.0244780857038  ;   0.0123916493713  ;   0.0092784763765  ;   0.0060432181663  ;   0.0035404712489  ;   0.0020144060554  ;   0.0016481504090  ;   0.0003662556464  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.4986301369863 </FixingDate>
+												<PayDate>   3.4986300000000 </PayDate>
+												<IDLeg> 1015 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000010281 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1612223786028  ;  -0.1514852540246  ;  -0.1417481294463  ;  -0.1320110048681  ;  -0.1222738802899  ;  -0.1125367557116  ;  -0.1027996311334  ;  -0.0930625065552  ;  -0.0833253819770  ;  -0.0735882573987  ;  -0.0638511328205  ;  -0.0541140082423  ;  -0.0443768836640  ;  -0.0346397590858  ;  -0.0249026345076  ;  -0.0151655099293  ;  -0.0054283853511  ;   0.0043087392271  ;   0.0140458638053  ;   0.0237829883836  ;   0.0335201129618  ;   0.0432572375400  ;   0.0529943621183  ;   0.0627314866965  ;   0.0724686112747  ;   0.0822057358530  ;   0.0919428604312  ;   0.1016799850094  ;   0.1114171095876  ;   0.1211542341659  ;   0.1308913587441  ;   0.1406284833223  ;   0.1503656079006 </Buckets>
+													<Values>  0.0000610426077  ;   0.0002441704310  ;   0.0001831278232  ;   0.0009766817238  ;   0.0015871078012  ;   0.0036625564644  ;   0.0061042607740  ;   0.0102551581004  ;   0.0166646319131  ;   0.0236845318032  ;   0.0327798803565  ;   0.0501159809547  ;   0.0581736051764  ;   0.0687950189232  ;   0.0835062873886  ;   0.0918691246490  ;   0.0930289341961  ;   0.0872909290685  ;   0.0869246734220  ;   0.0726407032108  ;   0.0628738859724  ;   0.0458429984129  ;   0.0361982663899  ;   0.0243560004883  ;   0.0174581858137  ;   0.0114149676474  ;   0.0061042607740  ;   0.0029300451715  ;   0.0015260651935  ;   0.0018923208399  ;   0.0005493834697  ;   0.0003052130387  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.2493150684932 </FixingDate>
+												<PayDate>   3.2493150000000 </PayDate>
+												<IDLeg> 1014 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000009415 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1538287696448  ;  -0.1445328841942  ;  -0.1352369987437  ;  -0.1259411132931  ;  -0.1166452278425  ;  -0.1073493423919  ;  -0.0980534569413  ;  -0.0887575714907  ;  -0.0794616860401  ;  -0.0701658005895  ;  -0.0608699151389  ;  -0.0515740296884  ;  -0.0422781442378  ;  -0.0329822587872  ;  -0.0236863733366  ;  -0.0143904878860  ;  -0.0050946024354  ;   0.0042012830152  ;   0.0134971684658  ;   0.0227930539164  ;   0.0320889393669  ;   0.0413848248175  ;   0.0506807102681  ;   0.0599765957187  ;   0.0692724811693  ;   0.0785683666199  ;   0.0878642520705  ;   0.0971601375211  ;   0.1064560229717  ;   0.1157519084222  ;   0.1250477938728  ;   0.1343436793234  ;   0.1436395647740 </Buckets>
+													<Values>  0.0001220852155  ;   0.0001220852155  ;   0.0003662556464  ;   0.0009156391161  ;   0.0020144060554  ;   0.0034183860335  ;   0.0070809424979  ;   0.0120864363326  ;   0.0175802710292  ;   0.0235624465877  ;   0.0358930533512  ;   0.0460261262361  ;   0.0598217555854  ;   0.0708704675864  ;   0.0795385178855  ;   0.0890001220852  ;   0.0930289341961  ;   0.0902820168478  ;   0.0834452447809  ;   0.0703821267245  ;   0.0601880112318  ;   0.0478574044683  ;   0.0354047124893  ;   0.0260651935051  ;   0.0172140153827  ;   0.0134293737028  ;   0.0067757294592  ;   0.0031131729948  ;   0.0019533634477  ;   0.0010377243316  ;   0.0008545965084  ;   0.0005493834697  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.0000000000000 </FixingDate>
+												<PayDate>   3.0000000000000 </PayDate>
+												<IDLeg> 1013 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000008767 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1434216825087  ;  -0.1341686890485  ;  -0.1249156955884  ;  -0.1156627021282  ;  -0.1064097086681  ;  -0.0971567152079  ;  -0.0879037217478  ;  -0.0786507282876  ;  -0.0693977348274  ;  -0.0601447413673  ;  -0.0508917479071  ;  -0.0416387544470  ;  -0.0323857609868  ;  -0.0231327675267  ;  -0.0138797740665  ;  -0.0046267806064  ;   0.0046262128538  ;   0.0138792063139  ;   0.0231321997741  ;   0.0323851932343  ;   0.0416381866944  ;   0.0508911801546  ;   0.0601441736147  ;   0.0693971670749  ;   0.0786501605350  ;   0.0879031539952  ;   0.0971561474553  ;   0.1064091409155  ;   0.1156621343756  ;   0.1249151278358  ;   0.1341681212960  ;   0.1434211147561  ;   0.1526741082163 </Buckets>
+													<Values>  0.0002441704310  ;   0.0003052130387  ;   0.0007935539006  ;   0.0016481504090  ;   0.0030521303870  ;   0.0057990477353  ;   0.0119033085093  ;   0.0162373336589  ;   0.0250885117812  ;   0.0320473690636  ;   0.0470028079600  ;   0.0618361616408  ;   0.0724575753876  ;   0.0848492247589  ;   0.0905872298865  ;   0.0924795507264  ;   0.0926626785496  ;   0.0832621169576  ;   0.0724575753876  ;   0.0590282016848  ;   0.0479184470761  ;   0.0331461360029  ;   0.0250885117812  ;   0.0172140153827  ;   0.0112318398242  ;   0.0052496642657  ;   0.0023806617019  ;   0.0021975338786  ;   0.0009766817238  ;   0.0007325112929  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   3.0000000000000 </FixingDate>
+												<PayDate>   3.0000000000000 </PayDate>
+												<IDLeg> 3 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -19266.1923591200139 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-19266.2162258937205  ; -19266.2147794192242  ; -19266.2133329447242  ; -19266.2118864702243  ; -19266.2104399957243  ; -19266.2089935212243  ; -19266.2075470467244  ; -19266.2061005722244  ; -19266.2046540977281  ; -19266.2032076232281  ; -19266.2017611487281  ; -19266.2003146742281  ; -19266.1988681997282  ; -19266.1974217252282  ; -19266.1959752507282  ; -19266.1945287762319  ; -19266.1930823017319  ; -19266.1916358272319  ; -19266.1901893527320  ; -19266.1887428782320  ; -19266.1872964037320  ; -19266.1858499292321  ; -19266.1844034547357  ; -19266.1829569802358  ; -19266.1815105057358  ; -19266.1800640312358  ; -19266.1786175567358  ; -19266.1771710822359  ; -19266.1757246077359  ; -19266.1742781332396  ; -19266.1728316587396  ; -19266.1713851842396  ; -19266.1699387097397 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0007325112929  ;   0.0009766817238  ;   0.0021975338786  ;   0.0023806617019  ;   0.0052496642657  ;   0.0112318398242  ;   0.0172140153827  ;   0.0250885117812  ;   0.0331461360029  ;   0.0479184470761  ;   0.0590282016848  ;   0.0724575753876  ;   0.0832621169576  ;   0.0926626785496  ;   0.0924795507264  ;   0.0905872298865  ;   0.0848492247589  ;   0.0724575753876  ;   0.0618361616408  ;   0.0470028079600  ;   0.0320473690636  ;   0.0250885117812  ;   0.0162373336589  ;   0.0119033085093  ;   0.0057990477353  ;   0.0030521303870  ;   0.0016481504090  ;   0.0007935539006  ;   0.0003052130387  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   2.7479452054795 </FixingDate>
+												<PayDate>   2.7479450000000 </PayDate>
+												<IDLeg> 1012 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006859 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1386167969359  ;  -0.1298174086866  ;  -0.1210180204372  ;  -0.1122186321879  ;  -0.1034192439385  ;  -0.0946198556892  ;  -0.0858204674398  ;  -0.0770210791905  ;  -0.0682216909412  ;  -0.0594223026918  ;  -0.0506229144425  ;  -0.0418235261931  ;  -0.0330241379438  ;  -0.0242247496944  ;  -0.0154253614451  ;  -0.0066259731957  ;   0.0021734150536  ;   0.0109728033030  ;   0.0197721915523  ;   0.0285715798016  ;   0.0373709680510  ;   0.0461703563003  ;   0.0549697445497  ;   0.0637691327990  ;   0.0725685210484  ;   0.0813679092977  ;   0.0901672975471  ;   0.0989666857964  ;   0.1077660740458  ;   0.1165654622951  ;   0.1253648505445  ;   0.1341642387938  ;   0.1429636270431 </Buckets>
+													<Values>  0.0001831278232  ;   0.0003662556464  ;   0.0016481504090  ;   0.0021975338786  ;   0.0034183860335  ;   0.0056769625198  ;   0.0116591380784  ;   0.0162983762666  ;   0.0237455744109  ;   0.0335123916494  ;   0.0433402514955  ;   0.0588450738616  ;   0.0670247832987  ;   0.0792943474545  ;   0.0879013551459  ;   0.0879013551459  ;   0.0875350994995  ;   0.0816750091564  ;   0.0717250640947  ;   0.0661091441826  ;   0.0498107679160  ;   0.0388230985228  ;   0.0290562812843  ;   0.0201440605543  ;   0.0135514589183  ;   0.0077524111830  ;   0.0048834086192  ;   0.0026858747406  ;   0.0017702356245  ;   0.0009766817238  ;   0.0002441704310  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   2.4958904109589 </FixingDate>
+												<PayDate>   2.4958900000000 </PayDate>
+												<IDLeg> 1011 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000007643 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1282387184393  ;  -0.1201984571773  ;  -0.1121581959153  ;  -0.1041179346533  ;  -0.0960776733912  ;  -0.0880374121292  ;  -0.0799971508672  ;  -0.0719568896052  ;  -0.0639166283432  ;  -0.0558763670812  ;  -0.0478361058192  ;  -0.0397958445572  ;  -0.0317555832952  ;  -0.0237153220332  ;  -0.0156750607712  ;  -0.0076347995091  ;   0.0004054617529  ;   0.0084457230149  ;   0.0164859842769  ;   0.0245262455389  ;   0.0325665068009  ;   0.0406067680629  ;   0.0486470293249  ;   0.0566872905869  ;   0.0647275518489  ;   0.0727678131109  ;   0.0808080743729  ;   0.0888483356350  ;   0.0968885968970  ;   0.1049288581590  ;   0.1129691194210  ;   0.1210093806830  ;   0.1290496419450 </Buckets>
+													<Values>  0.0005493834697  ;   0.0004883408619  ;   0.0009766817238  ;   0.0023196190941  ;   0.0043340251496  ;   0.0064094738127  ;   0.0111707972165  ;   0.0159931632279  ;   0.0216701257478  ;   0.0335734342571  ;   0.0433402514955  ;   0.0544500061043  ;   0.0653155902820  ;   0.0750213649127  ;   0.0817970943719  ;   0.0866805029911  ;   0.0855817360518  ;   0.0827127334880  ;   0.0741667684043  ;   0.0643999511659  ;   0.0529849835185  ;   0.0419973141253  ;   0.0307044316933  ;   0.0235624465877  ;   0.0151385667196  ;   0.0106214137468  ;   0.0059211329508  ;   0.0038456842876  ;   0.0018923208399  ;   0.0012208521548  ;   0.0007325112929  ;   0.0004272982542  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   2.2493150684932 </FixingDate>
+												<PayDate>   2.2493150000000 </PayDate>
+												<IDLeg> 1010 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000007299 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1250091250033  ;  -0.1168540580725  ;  -0.1086989911418  ;  -0.1005439242110  ;  -0.0923888572802  ;  -0.0842337903495  ;  -0.0760787234187  ;  -0.0679236564879  ;  -0.0597685895571  ;  -0.0516135226264  ;  -0.0434584556956  ;  -0.0353033887648  ;  -0.0271483218340  ;  -0.0189932549033  ;  -0.0108381879725  ;  -0.0026831210417  ;   0.0054719458891  ;   0.0136270128198  ;   0.0217820797506  ;   0.0299371466814  ;   0.0380922136122  ;   0.0462472805429  ;   0.0544023474737  ;   0.0625574144045  ;   0.0707124813352  ;   0.0788675482660  ;   0.0870226151968  ;   0.0951776821276  ;   0.1033327490583  ;   0.1114878159891  ;   0.1196428829199  ;   0.1277979498507  ;   0.1359530167814 </Buckets>
+													<Values>  0.0001831278232  ;   0.0004272982542  ;   0.0007325112929  ;   0.0017702356245  ;   0.0036625564644  ;   0.0078134537907  ;   0.0097057746307  ;   0.0183127823221  ;   0.0257599804664  ;   0.0360151385667  ;   0.0494445122696  ;   0.0628738859724  ;   0.0742278110121  ;   0.0867415455988  ;   0.0916859968258  ;   0.0922353802954  ;   0.0915639116103  ;   0.0828958613112  ;   0.0710535954096  ;   0.0582956903919  ;   0.0441338053962  ;   0.0313148577707  ;   0.0250885117812  ;   0.0141008423880  ;   0.0086680502991  ;   0.0043340251496  ;   0.0043340251496  ;   0.0015260651935  ;   0.0004883408619  ;   0.0004883408619  ;   0.0000000000000  ;   0.0001220852155  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   2.0000000000000 </FixingDate>
+												<PayDate>   2.0000000000000 </PayDate>
+												<IDLeg> 1009 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006799 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1308439327693  ;  -0.1227263335702  ;  -0.1146087343711  ;  -0.1064911351720  ;  -0.0983735359729  ;  -0.0902559367738  ;  -0.0821383375747  ;  -0.0740207383756  ;  -0.0659031391765  ;  -0.0577855399774  ;  -0.0496679407783  ;  -0.0415503415792  ;  -0.0334327423801  ;  -0.0253151431810  ;  -0.0171975439819  ;  -0.0090799447828  ;  -0.0009623455837  ;   0.0071552536154  ;   0.0152728528145  ;   0.0233904520136  ;   0.0315080512127  ;   0.0396256504118  ;   0.0477432496109  ;   0.0558608488100  ;   0.0639784480091  ;   0.0720960472082  ;   0.0802136464073  ;   0.0883312456064  ;   0.0964488448055  ;   0.1045664440046  ;   0.1126840432037  ;   0.1208016424028  ;   0.1289192416019 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0000000000000  ;   0.0010377243316  ;   0.0010377243316  ;   0.0039677695031  ;   0.0057380051276  ;   0.0122085215480  ;   0.0189842510072  ;   0.0246001709193  ;   0.0374191185447  ;   0.0518251739714  ;   0.0665974850446  ;   0.0815529239409  ;   0.0879623977536  ;   0.0954095958979  ;   0.0935783176657  ;   0.0950433402515  ;   0.0821023074106  ;   0.0696496154316  ;   0.0546941765352  ;   0.0397997802466  ;   0.0302771334391  ;   0.0198998901233  ;   0.0109266267855  ;   0.0076913685753  ;   0.0036625564644  ;   0.0024417043096  ;   0.0011598095471  ;   0.0003662556464  ;   0.0001831278232  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   2.0000000000000 </FixingDate>
+												<PayDate>   2.0000000000000 </PayDate>
+												<IDLeg> 2 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -19506.5918689066420 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-19506.6215984220726  ; -19506.6197264559814  ; -19506.6178544898867  ; -19506.6159825237955  ; -19506.6141105577044  ; -19506.6122385916133  ; -19506.6103666255221  ; -19506.6084946594310  ; -19506.6066226933399  ; -19506.6047507272451  ; -19506.6028787611540  ; -19506.6010067950629  ; -19506.5991348289717  ; -19506.5972628628806  ; -19506.5953908967895  ; -19506.5935189306983  ; -19506.5916469646036  ; -19506.5897749985124  ; -19506.5879030324213  ; -19506.5860310663302  ; -19506.5841591002390  ; -19506.5822871341479  ; -19506.5804151680532  ; -19506.5785432019620  ; -19506.5766712358709  ; -19506.5747992697798  ; -19506.5729273036886  ; -19506.5710553375975  ; -19506.5691833715064  ; -19506.5673114054116  ; -19506.5654394393205  ; -19506.5635674732293  ; -19506.5616955071382 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001831278232  ;   0.0003662556464  ;   0.0011598095471  ;   0.0024417043096  ;   0.0036625564644  ;   0.0076913685753  ;   0.0109266267855  ;   0.0198998901233  ;   0.0302771334391  ;   0.0397997802466  ;   0.0546941765352  ;   0.0696496154316  ;   0.0821023074106  ;   0.0950433402515  ;   0.0935783176657  ;   0.0954095958979  ;   0.0879623977536  ;   0.0815529239409  ;   0.0665974850446  ;   0.0518251739714  ;   0.0374191185447  ;   0.0246001709193  ;   0.0189842510072  ;   0.0122085215480  ;   0.0057380051276  ;   0.0039677695031  ;   0.0010377243316  ;   0.0010377243316  ;   0.0000000000000  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   1.7479452054795 </FixingDate>
+												<PayDate>   1.7479450000000 </PayDate>
+												<IDLeg> 1008 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000005520 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1218837037250  ;  -0.1139486154122  ;  -0.1060135270994  ;  -0.0980784387866  ;  -0.0901433504738  ;  -0.0822082621610  ;  -0.0742731738482  ;  -0.0663380855354  ;  -0.0584029972226  ;  -0.0504679089098  ;  -0.0425328205970  ;  -0.0345977322842  ;  -0.0266626439714  ;  -0.0187275556586  ;  -0.0107924673458  ;  -0.0028573790330  ;   0.0050777092798  ;   0.0130127975926  ;   0.0209478859054  ;   0.0288829742182  ;   0.0368180625310  ;   0.0447531508438  ;   0.0526882391566  ;   0.0606233274694  ;   0.0685584157822  ;   0.0764935040950  ;   0.0844285924078  ;   0.0923636807206  ;   0.1002987690334  ;   0.1082338573462  ;   0.1161689456590  ;   0.1241040339718  ;   0.1320391222846 </Buckets>
+													<Values>  0.0001220852155  ;   0.0002441704310  ;   0.0000610426077  ;   0.0009156391161  ;   0.0021364912709  ;   0.0048834086192  ;   0.0098278598462  ;   0.0142229276035  ;   0.0251495543890  ;   0.0344890733732  ;   0.0452325723355  ;   0.0620192894640  ;   0.0767305579294  ;   0.0890611646930  ;   0.0989500671469  ;   0.1004150897326  ;   0.0956537663289  ;   0.0844829691124  ;   0.0738005127579  ;   0.0588450738616  ;   0.0461482114516  ;   0.0296667073617  ;   0.0179465266756  ;   0.0132462458796  ;   0.0075082407520  ;   0.0041508973263  ;   0.0025027469173  ;   0.0009766817238  ;   0.0003662556464  ;   0.0000610426077  ;   0.0001220852155  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   1.4958904109589 </FixingDate>
+												<PayDate>   1.4958900000000 </PayDate>
+												<IDLeg> 1007 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006361 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1148314103271  ;  -0.1073449261334  ;  -0.0998584419397  ;  -0.0923719577460  ;  -0.0848854735523  ;  -0.0773989893586  ;  -0.0699125051649  ;  -0.0624260209712  ;  -0.0549395367775  ;  -0.0474530525838  ;  -0.0399665683901  ;  -0.0324800841964  ;  -0.0249936000027  ;  -0.0175071158090  ;  -0.0100206316153  ;  -0.0025341474216  ;   0.0049523367721  ;   0.0124388209658  ;   0.0199253051595  ;   0.0274117893532  ;   0.0348982735469  ;   0.0423847577406  ;   0.0498712419343  ;   0.0573577261280  ;   0.0648442103217  ;   0.0723306945154  ;   0.0798171787091  ;   0.0873036629028  ;   0.0947901470965  ;   0.1022766312902  ;   0.1097631154839  ;   0.1172495996776  ;   0.1247360838713 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0004272982542  ;   0.0008545965084  ;   0.0023806617019  ;   0.0045781955805  ;   0.0081186668294  ;   0.0152606519351  ;   0.0247832987425  ;   0.0320473690636  ;   0.0467586375290  ;   0.0613478207789  ;   0.0815529239409  ;   0.0893663777317  ;   0.0976071297766  ;   0.0996215358320  ;   0.0972408741301  ;   0.0880234403614  ;   0.0742278110121  ;   0.0573190086681  ;   0.0435844219265  ;   0.0285679404224  ;   0.0196557196923  ;   0.0128799902332  ;   0.0064705164205  ;   0.0039067268954  ;   0.0017702356245  ;   0.0010377243316  ;   0.0003052130387  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   1.2493150684932 </FixingDate>
+												<PayDate>   1.2493150000000 </PayDate>
+												<IDLeg> 1006 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000004171 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0937442611742  ;  -0.0876349859628  ;  -0.0815257107513  ;  -0.0754164355399  ;  -0.0693071603285  ;  -0.0631978851171  ;  -0.0570886099057  ;  -0.0509793346943  ;  -0.0448700594829  ;  -0.0387607842715  ;  -0.0326515090601  ;  -0.0265422338487  ;  -0.0204329586373  ;  -0.0143236834259  ;  -0.0082144082144  ;  -0.0021051330030  ;   0.0040041422084  ;   0.0101134174198  ;   0.0162226926312  ;   0.0223319678426  ;   0.0284412430540  ;   0.0345505182654  ;   0.0406597934768  ;   0.0467690686882  ;   0.0528783438996  ;   0.0589876191111  ;   0.0650968943225  ;   0.0712061695339  ;   0.0773154447453  ;   0.0834247199567  ;   0.0895339951681  ;   0.0956432703795  ;   0.1017525455909 </Buckets>
+													<Values>  0.0002441704310  ;   0.0006104260774  ;   0.0008545965084  ;   0.0020754486632  ;   0.0043340251496  ;   0.0083017946527  ;   0.0114149676474  ;   0.0184959101453  ;   0.0263704065438  ;   0.0368086924673  ;   0.0496886827005  ;   0.0611646929557  ;   0.0769747283604  ;   0.0822243926261  ;   0.0897936759858  ;   0.0907703577097  ;   0.0872909290685  ;   0.0815529239409  ;   0.0694664876084  ;   0.0571358808448  ;   0.0481626175070  ;   0.0335734342571  ;   0.0238066170187  ;   0.0167867171286  ;   0.0086070076914  ;   0.0067146868514  ;   0.0031742156025  ;   0.0020144060554  ;   0.0007325112929  ;   0.0004883408619  ;   0.0001831278232  ;   0.0001831278232  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   1.0000000000000 </FixingDate>
+												<PayDate>   1.0000000000000 </PayDate>
+												<IDLeg> 1005 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000003824 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0881996007669  ;  -0.0821307236484  ;  -0.0760618465299  ;  -0.0699929694114  ;  -0.0639240922929  ;  -0.0578552151744  ;  -0.0517863380559  ;  -0.0457174609375  ;  -0.0396485838190  ;  -0.0335797067005  ;  -0.0275108295820  ;  -0.0214419524635  ;  -0.0153730753450  ;  -0.0093041982265  ;  -0.0032353211080  ;   0.0028335560104  ;   0.0089024331289  ;   0.0149713102474  ;   0.0210401873659  ;   0.0271090644844  ;   0.0331779416029  ;   0.0392468187214  ;   0.0453156958399  ;   0.0513845729583  ;   0.0574534500768  ;   0.0635223271953  ;   0.0695912043138  ;   0.0756600814323  ;   0.0817289585508  ;   0.0877978356693  ;   0.0938667127878  ;   0.0999355899062  ;   0.1060044670247 </Buckets>
+													<Values>  0.0003662556464  ;   0.0001220852155  ;   0.0010377243316  ;   0.0025027469173  ;   0.0043340251496  ;   0.0068978146746  ;   0.0134293737028  ;   0.0217311683555  ;   0.0330240507874  ;   0.0439506775729  ;   0.0612867781712  ;   0.0717250640947  ;   0.0908314003174  ;   0.0956537663289  ;   0.0989500671469  ;   0.0987669393236  ;   0.0855206934440  ;   0.0785007935539  ;   0.0600048834086  ;   0.0448663166890  ;   0.0332071786107  ;   0.0242949578806  ;   0.0133072884874  ;   0.0069588572824  ;   0.0047002807960  ;   0.0021364912709  ;   0.0013429373703  ;   0.0003052130387  ;   0.0001220852155  ;   0.0000000000000  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   1.0000000000000 </FixingDate>
+												<PayDate>   1.0000000000000 </PayDate>
+												<IDLeg> 1 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -19827.2592539320794 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-19827.2913854300314  ; -19827.2895458638995  ; -19827.2877062977641  ; -19827.2858667316323  ; -19827.2840271655004  ; -19827.2821875993686  ; -19827.2803480332332  ; -19827.2785084671013  ; -19827.2766689009695  ; -19827.2748293348341  ; -19827.2729897687022  ; -19827.2711502025704  ; -19827.2693106364350  ; -19827.2674710703031  ; -19827.2656315041713  ; -19827.2637919380395  ; -19827.2619523719040  ; -19827.2601128057722  ; -19827.2582732396404  ; -19827.2564336735049  ; -19827.2545941073731  ; -19827.2527545412413  ; -19827.2509149751095  ; -19827.2490754089740  ; -19827.2472358428422  ; -19827.2453962767104  ; -19827.2435567105749  ; -19827.2417171444431  ; -19827.2398775783113  ; -19827.2380380121758  ; -19827.2361984460440  ; -19827.2343588799122  ; -19827.2325193137804 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0000000000000  ;   0.0001220852155  ;   0.0003052130387  ;   0.0013429373703  ;   0.0021364912709  ;   0.0047002807960  ;   0.0069588572824  ;   0.0133072884874  ;   0.0242949578806  ;   0.0332071786107  ;   0.0448663166890  ;   0.0600048834086  ;   0.0785007935539  ;   0.0855206934440  ;   0.0987669393236  ;   0.0989500671469  ;   0.0956537663289  ;   0.0908314003174  ;   0.0717250640947  ;   0.0612867781712  ;   0.0439506775729  ;   0.0330240507874  ;   0.0217311683555  ;   0.0134293737028  ;   0.0068978146746  ;   0.0043340251496  ;   0.0025027469173  ;   0.0010377243316  ;   0.0001220852155  ;   0.0003662556464  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   0.7479452054795 </FixingDate>
+												<PayDate>   0.7479450000000 </PayDate>
+												<IDLeg> 1004 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000002978 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0775540562625  ;  -0.0724788458715  ;  -0.0674036354804  ;  -0.0623284250893  ;  -0.0572532146983  ;  -0.0521780043072  ;  -0.0471027939162  ;  -0.0420275835251  ;  -0.0369523731341  ;  -0.0318771627430  ;  -0.0268019523520  ;  -0.0217267419609  ;  -0.0166515315699  ;  -0.0115763211788  ;  -0.0065011107878  ;  -0.0014259003967  ;   0.0036493099943  ;   0.0087245203854  ;   0.0137997307764  ;   0.0188749411675  ;   0.0239501515585  ;   0.0290253619496  ;   0.0341005723406  ;   0.0391757827317  ;   0.0442509931228  ;   0.0493262035138  ;   0.0544014139049  ;   0.0594766242959  ;   0.0645518346870  ;   0.0696270450780  ;   0.0747022554691  ;   0.0797774658601  ;   0.0848526762512 </Buckets>
+													<Values>  0.0001831278232  ;   0.0004272982542  ;   0.0008545965084  ;   0.0017091930167  ;   0.0037846416799  ;   0.0054327920889  ;   0.0119033085093  ;   0.0178244414601  ;   0.0245391283116  ;   0.0360761811745  ;   0.0518862165792  ;   0.0654376754975  ;   0.0750213649127  ;   0.0835673299963  ;   0.0937004028812  ;   0.0960810645831  ;   0.0919301672567  ;   0.0805151996093  ;   0.0708704675864  ;   0.0559760712978  ;   0.0441948480039  ;   0.0320473690636  ;   0.0227078500794  ;   0.0146502258576  ;   0.0089122207301  ;   0.0045781955805  ;   0.0025027469173  ;   0.0016481504090  ;   0.0003662556464  ;   0.0003662556464  ;   0.0001220852155  ;   0.0001831278232  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   0.4958904109589 </FixingDate>
+												<PayDate>   0.4958900000000 </PayDate>
+												<IDLeg> 1003 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000001281 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0630126051459  ;  -0.0586930796171  ;  -0.0543735540884  ;  -0.0500540285596  ;  -0.0457345030309  ;  -0.0414149775021  ;  -0.0370954519734  ;  -0.0327759264446  ;  -0.0284564009159  ;  -0.0241368753871  ;  -0.0198173498584  ;  -0.0154978243296  ;  -0.0111782988009  ;  -0.0068587732721  ;  -0.0025392477434  ;   0.0017802777854  ;   0.0060998033141  ;   0.0104193288429  ;   0.0147388543716  ;   0.0190583799004  ;   0.0233779054291  ;   0.0276974309579  ;   0.0320169564866  ;   0.0363364820154  ;   0.0406560075441  ;   0.0449755330729  ;   0.0492950586016  ;   0.0536145841304  ;   0.0579341096591  ;   0.0622536351879  ;   0.0665731607166  ;   0.0708926862454  ;   0.0752122117741 </Buckets>
+													<Values>  0.0002441704310  ;   0.0006104260774  ;   0.0010377243316  ;   0.0021975338786  ;   0.0032352582102  ;   0.0088511781223  ;   0.0153216945428  ;   0.0206934440239  ;   0.0302771334391  ;   0.0429739958491  ;   0.0637284824808  ;   0.0738615553656  ;   0.0827127334880  ;   0.0944939567818  ;   0.0986448541082  ;   0.0955316811134  ;   0.0901599316323  ;   0.0761201318520  ;   0.0632401416188  ;   0.0468196801367  ;   0.0328409229642  ;   0.0241118300574  ;   0.0145281406422  ;   0.0086680502991  ;   0.0045171529728  ;   0.0026248321328  ;   0.0009766817238  ;   0.0005493834697  ;   0.0001831278232  ;   0.0000610426077  ;   0.0000610426077  ;   0.0001220852155  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   0.2493150684932 </FixingDate>
+												<PayDate>   0.2493150000000 </PayDate>
+												<IDLeg> 1002 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000000029 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0515122377720  ;  -0.0484194429019  ;  -0.0453266480318  ;  -0.0422338531617  ;  -0.0391410582916  ;  -0.0360482634215  ;  -0.0329554685514  ;  -0.0298626736813  ;  -0.0267698788113  ;  -0.0236770839412  ;  -0.0205842890711  ;  -0.0174914942010  ;  -0.0143986993309  ;  -0.0113059044608  ;  -0.0082131095907  ;  -0.0051203147206  ;  -0.0020275198505  ;   0.0010652750195  ;   0.0041580698896  ;   0.0072508647597  ;   0.0103436596298  ;   0.0134364544999  ;   0.0165292493700  ;   0.0196220442401  ;   0.0227148391102  ;   0.0258076339803  ;   0.0289004288503  ;   0.0319932237204  ;   0.0350860185905  ;   0.0381788134606  ;   0.0412716083307  ;   0.0443644032008  ;   0.0474571980709 </Buckets>
+													<Values>  0.0001831278232  ;   0.0000610426077  ;   0.0000610426077  ;   0.0002441704310  ;   0.0009156391161  ;   0.0019533634477  ;   0.0035404712489  ;   0.0052496642657  ;   0.0115370528629  ;   0.0194725918691  ;   0.0310096447320  ;   0.0420583567330  ;   0.0598217555854  ;   0.0743498962276  ;   0.0896715907704  ;   0.0954706385057  ;   0.1052374557441  ;   0.0924795507264  ;   0.0894884629471  ;   0.0780124526920  ;   0.0658039311439  ;   0.0454767427665  ;   0.0326577951410  ;   0.0234403613722  ;   0.0153827371505  ;   0.0080576242217  ;   0.0042119399341  ;   0.0028079599560  ;   0.0009156391161  ;   0.0000610426077  ;   0.0001220852155  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   0.0000000000000 </FixingDate>
+												<PayDate>   0.0000000000000 </PayDate>
+												<IDLeg> 1001 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> 7716.8148665848412 </Expectation>
+												<ConditionalDensity> Uncond </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>7716.8148665862927  ; 7793.9830152521554 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+											</Density>
+											<Density>
+												<FixingDate>   4.9972602739726 </FixingDate>
+												<PayDate>   4.9972600000000 </PayDate>
+												<IDLeg> 5 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -18448.1296713171068 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>-18448.1297848868926  ; -18632.6110827357588 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   4.7452054794521 </FixingDate>
+												<PayDate>   4.7452050000000 </PayDate>
+												<IDLeg> 1020 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000013424 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1817574251587  ;  -0.1707219197342  ;  -0.1596864143096  ;  -0.1486509088851  ;  -0.1376154034605  ;  -0.1265798980360  ;  -0.1155443926114  ;  -0.1045088871869  ;  -0.0934733817623  ;  -0.0824378763378  ;  -0.0714023709132  ;  -0.0603668654886  ;  -0.0493313600641  ;  -0.0382958546395  ;  -0.0272603492150  ;  -0.0162248437904  ;  -0.0051893383659  ;   0.0058461670587  ;   0.0168816724832  ;   0.0279171779078  ;   0.0389526833323  ;   0.0499881887569  ;   0.0610236941815  ;   0.0720591996060  ;   0.0830947050306  ;   0.0941302104551  ;   0.1051657158797  ;   0.1162012213042  ;   0.1272367267288  ;   0.1382722321533  ;   0.1493077375779  ;   0.1603432430024  ;   0.1713787484270 </Buckets>
+													<Values>  0.0001220852155  ;   0.0000610426077  ;   0.0003662556464  ;   0.0010987669393  ;   0.0021975338786  ;   0.0036625564644  ;   0.0053717494811  ;   0.0108045415700  ;   0.0189232083995  ;   0.0224026370407  ;   0.0352215846661  ;   0.0481015748993  ;   0.0597607129777  ;   0.0733732145037  ;   0.0853375656208  ;   0.0919301672567  ;   0.0882065681846  ;   0.0897326333781  ;   0.0844829691124  ;   0.0738005127579  ;   0.0602490538396  ;   0.0465144670980  ;   0.0340007325113  ;   0.0253937248199  ;   0.0161762910512  ;   0.0096447320230  ;   0.0065926016359  ;   0.0029910877793  ;   0.0018923208399  ;   0.0006714686851  ;   0.0007325112929  ;   0.0001831278232  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   4.4958904109589 </FixingDate>
+												<PayDate>   4.4958900000000 </PayDate>
+												<IDLeg> 1019 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000012145 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1892676260100  ;  -0.1781856928949  ;  -0.1671037597798  ;  -0.1560218266647  ;  -0.1449398935496  ;  -0.1338579604345  ;  -0.1227760273194  ;  -0.1116940942043  ;  -0.1006121610893  ;  -0.0895302279742  ;  -0.0784482948591  ;  -0.0673663617440  ;  -0.0562844286289  ;  -0.0452024955138  ;  -0.0341205623987  ;  -0.0230386292836  ;  -0.0119566961685  ;  -0.0008747630534  ;   0.0102071700617  ;   0.0212891031768  ;   0.0323710362919  ;   0.0434529694070  ;   0.0545349025221  ;   0.0656168356372  ;   0.0766987687523  ;   0.0877807018674  ;   0.0988626349825  ;   0.1099445680976  ;   0.1210265012127  ;   0.1321084343278  ;   0.1431903674429  ;   0.1542723005580  ;   0.1653542336731 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0000000000000  ;   0.0003662556464  ;   0.0007325112929  ;   0.0027469173483  ;   0.0034794286412  ;   0.0068367720669  ;   0.0112928824319  ;   0.0177633988524  ;   0.0275912586986  ;   0.0404102063240  ;   0.0512147478940  ;   0.0654987181052  ;   0.0788670492003  ;   0.0924795507264  ;   0.0938835307044  ;   0.0941887437431  ;   0.0931510194115  ;   0.0787449639849  ;   0.0667806128678  ;   0.0564644121597  ;   0.0409595897937  ;   0.0286900256379  ;   0.0206934440239  ;   0.0117812232939  ;   0.0070809424979  ;   0.0037235990722  ;   0.0025637895251  ;   0.0011598095471  ;   0.0003662556464  ;   0.0003662556464  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   4.2465753424658 </FixingDate>
+												<PayDate>   4.2465750000000 </PayDate>
+												<IDLeg> 1018 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000011418 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1891713807045  ;  -0.1779876115451  ;  -0.1668038423857  ;  -0.1556200732262  ;  -0.1444363040668  ;  -0.1332525349074  ;  -0.1220687657480  ;  -0.1108849965886  ;  -0.0997012274291  ;  -0.0885174582697  ;  -0.0773336891103  ;  -0.0661499199509  ;  -0.0549661507914  ;  -0.0437823816320  ;  -0.0325986124726  ;  -0.0214148433132  ;  -0.0102310741538  ;   0.0009526950057  ;   0.0121364641651  ;   0.0233202333245  ;   0.0345040024839  ;   0.0456877716434  ;   0.0568715408028  ;   0.0680553099622  ;   0.0792390791216  ;   0.0904228482810  ;   0.1016066174405  ;   0.1127903865999  ;   0.1239741557593  ;   0.1351579249187  ;   0.1463416940782  ;   0.1575254632376  ;   0.1687092323970 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000000000000  ;   0.0000610426077  ;   0.0001220852155  ;   0.0007325112929  ;   0.0018312782322  ;   0.0041508973263  ;   0.0060432181663  ;   0.0126358198022  ;   0.0157489927970  ;   0.0302771334391  ;   0.0401049932853  ;   0.0544500061043  ;   0.0694054450006  ;   0.0832621169576  ;   0.0893053351239  ;   0.1027347088268  ;   0.0935172750580  ;   0.0924185081187  ;   0.0819191795874  ;   0.0669637406910  ;   0.0501159809547  ;   0.0385789280918  ;   0.0262483213283  ;   0.0177023562447  ;   0.0096447320230  ;   0.0059821755585  ;   0.0031131729948  ;   0.0018312782322  ;   0.0003662556464  ;   0.0004272982542  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.9972602739726 </FixingDate>
+												<PayDate>   3.9972600000000 </PayDate>
+												<IDLeg> 1017 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000010386 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1761695954407  ;  -0.1650763449691  ;  -0.1539830944976  ;  -0.1428898440260  ;  -0.1317965935544  ;  -0.1207033430828  ;  -0.1096100926112  ;  -0.0985168421397  ;  -0.0874235916681  ;  -0.0763303411965  ;  -0.0652370907249  ;  -0.0541438402533  ;  -0.0430505897818  ;  -0.0319573393102  ;  -0.0208640888386  ;  -0.0097708383670  ;   0.0013224121046  ;   0.0124156625761  ;   0.0235089130477  ;   0.0346021635193  ;   0.0456954139909  ;   0.0567886644625  ;   0.0678819149340  ;   0.0789751654056  ;   0.0900684158772  ;   0.1011616663488  ;   0.1122549168204  ;   0.1233481672919  ;   0.1344414177635  ;   0.1455346682351  ;   0.1566279187067  ;   0.1677211691783  ;   0.1788144196498 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001220852155  ;   0.0001220852155  ;   0.0004883408619  ;   0.0020144060554  ;   0.0026248321328  ;   0.0072030277133  ;   0.0115370528629  ;   0.0177633988524  ;   0.0269197900134  ;   0.0396776950311  ;   0.0560371139055  ;   0.0712367232328  ;   0.0814308387254  ;   0.0952875106825  ;   0.1005982175559  ;   0.0971798315224  ;   0.0915639116103  ;   0.0835673299963  ;   0.0663533146136  ;   0.0479794896838  ;   0.0389451837382  ;   0.0250885117812  ;   0.0155658649738  ;   0.0098889024539  ;   0.0051275790502  ;   0.0028690025638  ;   0.0016481504090  ;   0.0007935539006  ;   0.0000610426077  ;   0.0001831278232  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.9972602739726 </FixingDate>
+												<PayDate>   3.9972600000000 </PayDate>
+												<IDLeg> 4 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -18758.4378826233042 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-18758.4519135511837  ; -18758.4510431032759  ; -18758.4501726553681  ; -18758.4493022074603  ; -18758.4484317595525  ; -18758.4475613116483  ; -18758.4466908637405  ; -18758.4458204158327  ; -18758.4449499679249  ; -18758.4440795200171  ; -18758.4432090721093  ; -18758.4423386242015  ; -18758.4414681762937  ; -18758.4405977283859  ; -18758.4397272804817  ; -18758.4388568325739  ; -18758.4379863846661  ; -18758.4371159367583  ; -18758.4362454888505  ; -18758.4353750409427  ; -18758.4345045930349  ; -18758.4336341451271  ; -18758.4327636972230  ; -18758.4318932493152  ; -18758.4310228014074  ; -18758.4301523534996  ; -18758.4292819055918  ; -18758.4284114576840  ; -18758.4275410097762  ; -18758.4266705618684  ; -18758.4258001139606  ; -18758.4249296660564  ; -18758.4240592181486 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001831278232  ;   0.0000610426077  ;   0.0007935539006  ;   0.0016481504090  ;   0.0028690025638  ;   0.0051275790502  ;   0.0098889024539  ;   0.0155658649738  ;   0.0250885117812  ;   0.0389451837382  ;   0.0479794896838  ;   0.0663533146136  ;   0.0835673299963  ;   0.0915639116103  ;   0.0971798315224  ;   0.1005982175559  ;   0.0952875106825  ;   0.0814308387254  ;   0.0712367232328  ;   0.0560371139055  ;   0.0396776950311  ;   0.0269197900134  ;   0.0177633988524  ;   0.0115370528629  ;   0.0072030277133  ;   0.0026248321328  ;   0.0020144060554  ;   0.0004883408619  ;   0.0001220852155  ;   0.0001220852155  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.7479452054795 </FixingDate>
+												<PayDate>   3.7479450000000 </PayDate>
+												<IDLeg> 1016 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000011301 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1535780251912  ;  -0.1439984643700  ;  -0.1344189035488  ;  -0.1248393427277  ;  -0.1152597819065  ;  -0.1056802210853  ;  -0.0961006602642  ;  -0.0865210994430  ;  -0.0769415386218  ;  -0.0673619778007  ;  -0.0577824169795  ;  -0.0482028561583  ;  -0.0386232953371  ;  -0.0290437345160  ;  -0.0194641736948  ;  -0.0098846128736  ;  -0.0003050520525  ;   0.0092745087687  ;   0.0188540695899  ;   0.0284336304110  ;   0.0380131912322  ;   0.0475927520534  ;   0.0571723128746  ;   0.0667518736957  ;   0.0763314345169  ;   0.0859109953381  ;   0.0954905561592  ;   0.1050701169804  ;   0.1146496778016  ;   0.1242292386227  ;   0.1338087994439  ;   0.1433883602651  ;   0.1529679210863 </Buckets>
+													<Values>  0.0002441704310  ;   0.0004272982542  ;   0.0009156391161  ;   0.0014650225858  ;   0.0028690025638  ;   0.0064094738127  ;   0.0103772433158  ;   0.0153216945428  ;   0.0203271883775  ;   0.0305823464778  ;   0.0415089732633  ;   0.0543889634965  ;   0.0664143572213  ;   0.0747771944817  ;   0.0828348187035  ;   0.0890611646930  ;   0.0875350994995  ;   0.0852154804053  ;   0.0764253448907  ;   0.0627518007569  ;   0.0550604321817  ;   0.0425466975949  ;   0.0325357099255  ;   0.0244780857038  ;   0.0123916493713  ;   0.0092784763765  ;   0.0060432181663  ;   0.0035404712489  ;   0.0020144060554  ;   0.0016481504090  ;   0.0003662556464  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.4986301369863 </FixingDate>
+												<PayDate>   3.4986300000000 </PayDate>
+												<IDLeg> 1015 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000010281 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1612223786028  ;  -0.1514852540246  ;  -0.1417481294463  ;  -0.1320110048681  ;  -0.1222738802899  ;  -0.1125367557116  ;  -0.1027996311334  ;  -0.0930625065552  ;  -0.0833253819770  ;  -0.0735882573987  ;  -0.0638511328205  ;  -0.0541140082423  ;  -0.0443768836640  ;  -0.0346397590858  ;  -0.0249026345076  ;  -0.0151655099293  ;  -0.0054283853511  ;   0.0043087392271  ;   0.0140458638053  ;   0.0237829883836  ;   0.0335201129618  ;   0.0432572375400  ;   0.0529943621183  ;   0.0627314866965  ;   0.0724686112747  ;   0.0822057358530  ;   0.0919428604312  ;   0.1016799850094  ;   0.1114171095876  ;   0.1211542341659  ;   0.1308913587441  ;   0.1406284833223  ;   0.1503656079006 </Buckets>
+													<Values>  0.0000610426077  ;   0.0002441704310  ;   0.0001831278232  ;   0.0009766817238  ;   0.0015871078012  ;   0.0036625564644  ;   0.0061042607740  ;   0.0102551581004  ;   0.0166646319131  ;   0.0236845318032  ;   0.0327798803565  ;   0.0501159809547  ;   0.0581736051764  ;   0.0687950189232  ;   0.0835062873886  ;   0.0918691246490  ;   0.0930289341961  ;   0.0872909290685  ;   0.0869246734220  ;   0.0726407032108  ;   0.0628738859724  ;   0.0458429984129  ;   0.0361982663899  ;   0.0243560004883  ;   0.0174581858137  ;   0.0114149676474  ;   0.0061042607740  ;   0.0029300451715  ;   0.0015260651935  ;   0.0018923208399  ;   0.0005493834697  ;   0.0003052130387  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.2493150684932 </FixingDate>
+												<PayDate>   3.2493150000000 </PayDate>
+												<IDLeg> 1014 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000009415 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1538287696448  ;  -0.1445328841942  ;  -0.1352369987437  ;  -0.1259411132931  ;  -0.1166452278425  ;  -0.1073493423919  ;  -0.0980534569413  ;  -0.0887575714907  ;  -0.0794616860401  ;  -0.0701658005895  ;  -0.0608699151389  ;  -0.0515740296884  ;  -0.0422781442378  ;  -0.0329822587872  ;  -0.0236863733366  ;  -0.0143904878860  ;  -0.0050946024354  ;   0.0042012830152  ;   0.0134971684658  ;   0.0227930539164  ;   0.0320889393669  ;   0.0413848248175  ;   0.0506807102681  ;   0.0599765957187  ;   0.0692724811693  ;   0.0785683666199  ;   0.0878642520705  ;   0.0971601375211  ;   0.1064560229717  ;   0.1157519084222  ;   0.1250477938728  ;   0.1343436793234  ;   0.1436395647740 </Buckets>
+													<Values>  0.0001220852155  ;   0.0001220852155  ;   0.0003662556464  ;   0.0009156391161  ;   0.0020144060554  ;   0.0034183860335  ;   0.0070809424979  ;   0.0120864363326  ;   0.0175802710292  ;   0.0235624465877  ;   0.0358930533512  ;   0.0460261262361  ;   0.0598217555854  ;   0.0708704675864  ;   0.0795385178855  ;   0.0890001220852  ;   0.0930289341961  ;   0.0902820168478  ;   0.0834452447809  ;   0.0703821267245  ;   0.0601880112318  ;   0.0478574044683  ;   0.0354047124893  ;   0.0260651935051  ;   0.0172140153827  ;   0.0134293737028  ;   0.0067757294592  ;   0.0031131729948  ;   0.0019533634477  ;   0.0010377243316  ;   0.0008545965084  ;   0.0005493834697  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.0000000000000 </FixingDate>
+												<PayDate>   3.0000000000000 </PayDate>
+												<IDLeg> 1013 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000008767 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1434216825087  ;  -0.1341686890485  ;  -0.1249156955884  ;  -0.1156627021282  ;  -0.1064097086681  ;  -0.0971567152079  ;  -0.0879037217478  ;  -0.0786507282876  ;  -0.0693977348274  ;  -0.0601447413673  ;  -0.0508917479071  ;  -0.0416387544470  ;  -0.0323857609868  ;  -0.0231327675267  ;  -0.0138797740665  ;  -0.0046267806064  ;   0.0046262128538  ;   0.0138792063139  ;   0.0231321997741  ;   0.0323851932343  ;   0.0416381866944  ;   0.0508911801546  ;   0.0601441736147  ;   0.0693971670749  ;   0.0786501605350  ;   0.0879031539952  ;   0.0971561474553  ;   0.1064091409155  ;   0.1156621343756  ;   0.1249151278358  ;   0.1341681212960  ;   0.1434211147561  ;   0.1526741082163 </Buckets>
+													<Values>  0.0002441704310  ;   0.0003052130387  ;   0.0007935539006  ;   0.0016481504090  ;   0.0030521303870  ;   0.0057990477353  ;   0.0119033085093  ;   0.0162373336589  ;   0.0250885117812  ;   0.0320473690636  ;   0.0470028079600  ;   0.0618361616408  ;   0.0724575753876  ;   0.0848492247589  ;   0.0905872298865  ;   0.0924795507264  ;   0.0926626785496  ;   0.0832621169576  ;   0.0724575753876  ;   0.0590282016848  ;   0.0479184470761  ;   0.0331461360029  ;   0.0250885117812  ;   0.0172140153827  ;   0.0112318398242  ;   0.0052496642657  ;   0.0023806617019  ;   0.0021975338786  ;   0.0009766817238  ;   0.0007325112929  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   3.0000000000000 </FixingDate>
+												<PayDate>   3.0000000000000 </PayDate>
+												<IDLeg> 3 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -19266.1923591200139 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-19266.2162258937205  ; -19266.2147794192242  ; -19266.2133329447242  ; -19266.2118864702243  ; -19266.2104399957243  ; -19266.2089935212243  ; -19266.2075470467244  ; -19266.2061005722244  ; -19266.2046540977281  ; -19266.2032076232281  ; -19266.2017611487281  ; -19266.2003146742281  ; -19266.1988681997282  ; -19266.1974217252282  ; -19266.1959752507282  ; -19266.1945287762319  ; -19266.1930823017319  ; -19266.1916358272319  ; -19266.1901893527320  ; -19266.1887428782320  ; -19266.1872964037320  ; -19266.1858499292321  ; -19266.1844034547357  ; -19266.1829569802358  ; -19266.1815105057358  ; -19266.1800640312358  ; -19266.1786175567358  ; -19266.1771710822359  ; -19266.1757246077359  ; -19266.1742781332396  ; -19266.1728316587396  ; -19266.1713851842396  ; -19266.1699387097397 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0007325112929  ;   0.0009766817238  ;   0.0021975338786  ;   0.0023806617019  ;   0.0052496642657  ;   0.0112318398242  ;   0.0172140153827  ;   0.0250885117812  ;   0.0331461360029  ;   0.0479184470761  ;   0.0590282016848  ;   0.0724575753876  ;   0.0832621169576  ;   0.0926626785496  ;   0.0924795507264  ;   0.0905872298865  ;   0.0848492247589  ;   0.0724575753876  ;   0.0618361616408  ;   0.0470028079600  ;   0.0320473690636  ;   0.0250885117812  ;   0.0162373336589  ;   0.0119033085093  ;   0.0057990477353  ;   0.0030521303870  ;   0.0016481504090  ;   0.0007935539006  ;   0.0003052130387  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   2.7479452054795 </FixingDate>
+												<PayDate>   2.7479450000000 </PayDate>
+												<IDLeg> 1012 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006859 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1386167969359  ;  -0.1298174086866  ;  -0.1210180204372  ;  -0.1122186321879  ;  -0.1034192439385  ;  -0.0946198556892  ;  -0.0858204674398  ;  -0.0770210791905  ;  -0.0682216909412  ;  -0.0594223026918  ;  -0.0506229144425  ;  -0.0418235261931  ;  -0.0330241379438  ;  -0.0242247496944  ;  -0.0154253614451  ;  -0.0066259731957  ;   0.0021734150536  ;   0.0109728033030  ;   0.0197721915523  ;   0.0285715798016  ;   0.0373709680510  ;   0.0461703563003  ;   0.0549697445497  ;   0.0637691327990  ;   0.0725685210484  ;   0.0813679092977  ;   0.0901672975471  ;   0.0989666857964  ;   0.1077660740458  ;   0.1165654622951  ;   0.1253648505445  ;   0.1341642387938  ;   0.1429636270431 </Buckets>
+													<Values>  0.0001831278232  ;   0.0003662556464  ;   0.0016481504090  ;   0.0021975338786  ;   0.0034183860335  ;   0.0056769625198  ;   0.0116591380784  ;   0.0162983762666  ;   0.0237455744109  ;   0.0335123916494  ;   0.0433402514955  ;   0.0588450738616  ;   0.0670247832987  ;   0.0792943474545  ;   0.0879013551459  ;   0.0879013551459  ;   0.0875350994995  ;   0.0816750091564  ;   0.0717250640947  ;   0.0661091441826  ;   0.0498107679160  ;   0.0388230985228  ;   0.0290562812843  ;   0.0201440605543  ;   0.0135514589183  ;   0.0077524111830  ;   0.0048834086192  ;   0.0026858747406  ;   0.0017702356245  ;   0.0009766817238  ;   0.0002441704310  ;   0.0002441704310  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   2.4958904109589 </FixingDate>
+												<PayDate>   2.4958900000000 </PayDate>
+												<IDLeg> 1011 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000007643 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1282387184393  ;  -0.1201984571773  ;  -0.1121581959153  ;  -0.1041179346533  ;  -0.0960776733912  ;  -0.0880374121292  ;  -0.0799971508672  ;  -0.0719568896052  ;  -0.0639166283432  ;  -0.0558763670812  ;  -0.0478361058192  ;  -0.0397958445572  ;  -0.0317555832952  ;  -0.0237153220332  ;  -0.0156750607712  ;  -0.0076347995091  ;   0.0004054617529  ;   0.0084457230149  ;   0.0164859842769  ;   0.0245262455389  ;   0.0325665068009  ;   0.0406067680629  ;   0.0486470293249  ;   0.0566872905869  ;   0.0647275518489  ;   0.0727678131109  ;   0.0808080743729  ;   0.0888483356350  ;   0.0968885968970  ;   0.1049288581590  ;   0.1129691194210  ;   0.1210093806830  ;   0.1290496419450 </Buckets>
+													<Values>  0.0005493834697  ;   0.0004883408619  ;   0.0009766817238  ;   0.0023196190941  ;   0.0043340251496  ;   0.0064094738127  ;   0.0111707972165  ;   0.0159931632279  ;   0.0216701257478  ;   0.0335734342571  ;   0.0433402514955  ;   0.0544500061043  ;   0.0653155902820  ;   0.0750213649127  ;   0.0817970943719  ;   0.0866805029911  ;   0.0855817360518  ;   0.0827127334880  ;   0.0741667684043  ;   0.0643999511659  ;   0.0529849835185  ;   0.0419973141253  ;   0.0307044316933  ;   0.0235624465877  ;   0.0151385667196  ;   0.0106214137468  ;   0.0059211329508  ;   0.0038456842876  ;   0.0018923208399  ;   0.0012208521548  ;   0.0007325112929  ;   0.0004272982542  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   2.2493150684932 </FixingDate>
+												<PayDate>   2.2493150000000 </PayDate>
+												<IDLeg> 1010 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000007299 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1250091250033  ;  -0.1168540580725  ;  -0.1086989911418  ;  -0.1005439242110  ;  -0.0923888572802  ;  -0.0842337903495  ;  -0.0760787234187  ;  -0.0679236564879  ;  -0.0597685895571  ;  -0.0516135226264  ;  -0.0434584556956  ;  -0.0353033887648  ;  -0.0271483218340  ;  -0.0189932549033  ;  -0.0108381879725  ;  -0.0026831210417  ;   0.0054719458891  ;   0.0136270128198  ;   0.0217820797506  ;   0.0299371466814  ;   0.0380922136122  ;   0.0462472805429  ;   0.0544023474737  ;   0.0625574144045  ;   0.0707124813352  ;   0.0788675482660  ;   0.0870226151968  ;   0.0951776821276  ;   0.1033327490583  ;   0.1114878159891  ;   0.1196428829199  ;   0.1277979498507  ;   0.1359530167814 </Buckets>
+													<Values>  0.0001831278232  ;   0.0004272982542  ;   0.0007325112929  ;   0.0017702356245  ;   0.0036625564644  ;   0.0078134537907  ;   0.0097057746307  ;   0.0183127823221  ;   0.0257599804664  ;   0.0360151385667  ;   0.0494445122696  ;   0.0628738859724  ;   0.0742278110121  ;   0.0867415455988  ;   0.0916859968258  ;   0.0922353802954  ;   0.0915639116103  ;   0.0828958613112  ;   0.0710535954096  ;   0.0582956903919  ;   0.0441338053962  ;   0.0313148577707  ;   0.0250885117812  ;   0.0141008423880  ;   0.0086680502991  ;   0.0043340251496  ;   0.0043340251496  ;   0.0015260651935  ;   0.0004883408619  ;   0.0004883408619  ;   0.0000000000000  ;   0.0001220852155  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   2.0000000000000 </FixingDate>
+												<PayDate>   2.0000000000000 </PayDate>
+												<IDLeg> 1009 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006799 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1308439327693  ;  -0.1227263335702  ;  -0.1146087343711  ;  -0.1064911351720  ;  -0.0983735359729  ;  -0.0902559367738  ;  -0.0821383375747  ;  -0.0740207383756  ;  -0.0659031391765  ;  -0.0577855399774  ;  -0.0496679407783  ;  -0.0415503415792  ;  -0.0334327423801  ;  -0.0253151431810  ;  -0.0171975439819  ;  -0.0090799447828  ;  -0.0009623455837  ;   0.0071552536154  ;   0.0152728528145  ;   0.0233904520136  ;   0.0315080512127  ;   0.0396256504118  ;   0.0477432496109  ;   0.0558608488100  ;   0.0639784480091  ;   0.0720960472082  ;   0.0802136464073  ;   0.0883312456064  ;   0.0964488448055  ;   0.1045664440046  ;   0.1126840432037  ;   0.1208016424028  ;   0.1289192416019 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0000000000000  ;   0.0010377243316  ;   0.0010377243316  ;   0.0039677695031  ;   0.0057380051276  ;   0.0122085215480  ;   0.0189842510072  ;   0.0246001709193  ;   0.0374191185447  ;   0.0518251739714  ;   0.0665974850446  ;   0.0815529239409  ;   0.0879623977536  ;   0.0954095958979  ;   0.0935783176657  ;   0.0950433402515  ;   0.0821023074106  ;   0.0696496154316  ;   0.0546941765352  ;   0.0397997802466  ;   0.0302771334391  ;   0.0198998901233  ;   0.0109266267855  ;   0.0076913685753  ;   0.0036625564644  ;   0.0024417043096  ;   0.0011598095471  ;   0.0003662556464  ;   0.0001831278232  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   2.0000000000000 </FixingDate>
+												<PayDate>   2.0000000000000 </PayDate>
+												<IDLeg> 2 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation> -19506.5918689066420 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets>-19506.6215984220726  ; -19506.6197264559814  ; -19506.6178544898867  ; -19506.6159825237955  ; -19506.6141105577044  ; -19506.6122385916133  ; -19506.6103666255221  ; -19506.6084946594310  ; -19506.6066226933399  ; -19506.6047507272451  ; -19506.6028787611540  ; -19506.6010067950629  ; -19506.5991348289717  ; -19506.5972628628806  ; -19506.5953908967895  ; -19506.5935189306983  ; -19506.5916469646036  ; -19506.5897749985124  ; -19506.5879030324213  ; -19506.5860310663302  ; -19506.5841591002390  ; -19506.5822871341479  ; -19506.5804151680532  ; -19506.5785432019620  ; -19506.5766712358709  ; -19506.5747992697798  ; -19506.5729273036886  ; -19506.5710553375975  ; -19506.5691833715064  ; -19506.5673114054116  ; -19506.5654394393205  ; -19506.5635674732293  ; -19506.5616955071382 </Buckets>
+													<Values>  0.0000610426077  ;   0.0001831278232  ;   0.0003662556464  ;   0.0011598095471  ;   0.0024417043096  ;   0.0036625564644  ;   0.0076913685753  ;   0.0109266267855  ;   0.0198998901233  ;   0.0302771334391  ;   0.0397997802466  ;   0.0546941765352  ;   0.0696496154316  ;   0.0821023074106  ;   0.0950433402515  ;   0.0935783176657  ;   0.0954095958979  ;   0.0879623977536  ;   0.0815529239409  ;   0.0665974850446  ;   0.0518251739714  ;   0.0374191185447  ;   0.0246001709193  ;   0.0189842510072  ;   0.0122085215480  ;   0.0057380051276  ;   0.0039677695031  ;   0.0010377243316  ;   0.0010377243316  ;   0.0000000000000  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate> -19506.5918689066457  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   1.7479452054795 </FixingDate>
+												<PayDate>   1.7479450000000 </PayDate>
+												<IDLeg> 1008 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000005520 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1218837037250  ;  -0.1139486154122  ;  -0.1060135270994  ;  -0.0980784387866  ;  -0.0901433504738  ;  -0.0822082621610  ;  -0.0742731738482  ;  -0.0663380855354  ;  -0.0584029972226  ;  -0.0504679089098  ;  -0.0425328205970  ;  -0.0345977322842  ;  -0.0266626439714  ;  -0.0187275556586  ;  -0.0107924673458  ;  -0.0028573790330  ;   0.0050777092798  ;   0.0130127975926  ;   0.0209478859054  ;   0.0288829742182  ;   0.0368180625310  ;   0.0447531508438  ;   0.0526882391566  ;   0.0606233274694  ;   0.0685584157822  ;   0.0764935040950  ;   0.0844285924078  ;   0.0923636807206  ;   0.1002987690334  ;   0.1082338573462  ;   0.1161689456590  ;   0.1241040339718  ;   0.1320391222846 </Buckets>
+													<Values>  0.0001220852155  ;   0.0002441704310  ;   0.0000610426077  ;   0.0009156391161  ;   0.0021364912709  ;   0.0048834086192  ;   0.0098278598462  ;   0.0142229276035  ;   0.0251495543890  ;   0.0344890733732  ;   0.0452325723355  ;   0.0620192894640  ;   0.0767305579294  ;   0.0890611646930  ;   0.0989500671469  ;   0.1004150897326  ;   0.0956537663289  ;   0.0844829691124  ;   0.0738005127579  ;   0.0588450738616  ;   0.0461482114516  ;   0.0296667073617  ;   0.0179465266756  ;   0.0132462458796  ;   0.0075082407520  ;   0.0041508973263  ;   0.0025027469173  ;   0.0009766817238  ;   0.0003662556464  ;   0.0000610426077  ;   0.0001220852155  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>  -0.0000000005520  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   1.4958904109589 </FixingDate>
+												<PayDate>   1.4958900000000 </PayDate>
+												<IDLeg> 1007 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000006361 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.1148314103271  ;  -0.1073449261334  ;  -0.0998584419397  ;  -0.0923719577460  ;  -0.0848854735523  ;  -0.0773989893586  ;  -0.0699125051649  ;  -0.0624260209712  ;  -0.0549395367775  ;  -0.0474530525838  ;  -0.0399665683901  ;  -0.0324800841964  ;  -0.0249936000027  ;  -0.0175071158090  ;  -0.0100206316153  ;  -0.0025341474216  ;   0.0049523367721  ;   0.0124388209658  ;   0.0199253051595  ;   0.0274117893532  ;   0.0348982735469  ;   0.0423847577406  ;   0.0498712419343  ;   0.0573577261280  ;   0.0648442103217  ;   0.0723306945154  ;   0.0798171787091  ;   0.0873036629028  ;   0.0947901470965  ;   0.1022766312902  ;   0.1097631154839  ;   0.1172495996776  ;   0.1247360838713 </Buckets>
+													<Values>  0.0000610426077  ;   0.0000610426077  ;   0.0004272982542  ;   0.0008545965084  ;   0.0023806617019  ;   0.0045781955805  ;   0.0081186668294  ;   0.0152606519351  ;   0.0247832987425  ;   0.0320473690636  ;   0.0467586375290  ;   0.0613478207789  ;   0.0815529239409  ;   0.0893663777317  ;   0.0976071297766  ;   0.0996215358320  ;   0.0972408741301  ;   0.0880234403614  ;   0.0742278110121  ;   0.0573190086681  ;   0.0435844219265  ;   0.0285679404224  ;   0.0196557196923  ;   0.0128799902332  ;   0.0064705164205  ;   0.0039067268954  ;   0.0017702356245  ;   0.0010377243316  ;   0.0003052130387  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>  -0.0000000006361  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   1.2493150684932 </FixingDate>
+												<PayDate>   1.2493150000000 </PayDate>
+												<IDLeg> 1006 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000004171 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0937442611742  ;  -0.0876349859628  ;  -0.0815257107513  ;  -0.0754164355399  ;  -0.0693071603285  ;  -0.0631978851171  ;  -0.0570886099057  ;  -0.0509793346943  ;  -0.0448700594829  ;  -0.0387607842715  ;  -0.0326515090601  ;  -0.0265422338487  ;  -0.0204329586373  ;  -0.0143236834259  ;  -0.0082144082144  ;  -0.0021051330030  ;   0.0040041422084  ;   0.0101134174198  ;   0.0162226926312  ;   0.0223319678426  ;   0.0284412430540  ;   0.0345505182654  ;   0.0406597934768  ;   0.0467690686882  ;   0.0528783438996  ;   0.0589876191111  ;   0.0650968943225  ;   0.0712061695339  ;   0.0773154447453  ;   0.0834247199567  ;   0.0895339951681  ;   0.0956432703795  ;   0.1017525455909 </Buckets>
+													<Values>  0.0002441704310  ;   0.0006104260774  ;   0.0008545965084  ;   0.0020754486632  ;   0.0043340251496  ;   0.0083017946527  ;   0.0114149676474  ;   0.0184959101453  ;   0.0263704065438  ;   0.0368086924673  ;   0.0496886827005  ;   0.0611646929557  ;   0.0769747283604  ;   0.0822243926261  ;   0.0897936759858  ;   0.0907703577097  ;   0.0872909290685  ;   0.0815529239409  ;   0.0694664876084  ;   0.0571358808448  ;   0.0481626175070  ;   0.0335734342571  ;   0.0238066170187  ;   0.0167867171286  ;   0.0086070076914  ;   0.0067146868514  ;   0.0031742156025  ;   0.0020144060554  ;   0.0007325112929  ;   0.0004883408619  ;   0.0001831278232  ;   0.0001831278232  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>  -0.0000000004171  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   1.0000000000000 </FixingDate>
+												<PayDate>   1.0000000000000 </PayDate>
+												<IDLeg> 1005 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>  -0.0000000003824 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 33 </NumberOfElements>
+													<Buckets> -0.0881996007669  ;  -0.0821307236484  ;  -0.0760618465299  ;  -0.0699929694114  ;  -0.0639240922929  ;  -0.0578552151744  ;  -0.0517863380559  ;  -0.0457174609375  ;  -0.0396485838190  ;  -0.0335797067005  ;  -0.0275108295820  ;  -0.0214419524635  ;  -0.0153730753450  ;  -0.0093041982265  ;  -0.0032353211080  ;   0.0028335560104  ;   0.0089024331289  ;   0.0149713102474  ;   0.0210401873659  ;   0.0271090644844  ;   0.0331779416029  ;   0.0392468187214  ;   0.0453156958399  ;   0.0513845729583  ;   0.0574534500768  ;   0.0635223271953  ;   0.0695912043138  ;   0.0756600814323  ;   0.0817289585508  ;   0.0877978356693  ;   0.0938667127878  ;   0.0999355899062  ;   0.1060044670247 </Buckets>
+													<Values>  0.0003662556464  ;   0.0001220852155  ;   0.0010377243316  ;   0.0025027469173  ;   0.0043340251496  ;   0.0068978146746  ;   0.0134293737028  ;   0.0217311683555  ;   0.0330240507874  ;   0.0439506775729  ;   0.0612867781712  ;   0.0717250640947  ;   0.0908314003174  ;   0.0956537663289  ;   0.0989500671469  ;   0.0987669393236  ;   0.0855206934440  ;   0.0785007935539  ;   0.0600048834086  ;   0.0448663166890  ;   0.0332071786107  ;   0.0242949578806  ;   0.0133072884874  ;   0.0069588572824  ;   0.0047002807960  ;   0.0021364912709  ;   0.0013429373703  ;   0.0003052130387  ;   0.0001220852155  ;   0.0000000000000  ;   0.0000610426077  ;   0.0000610426077  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>  -0.0000000003824  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   1.0000000000000 </FixingDate>
+												<PayDate>   1.0000000000000 </PayDate>
+												<IDLeg> 1 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>   0.0000000000000 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>  0.0000000000000  ;   0.0000000922560 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   0.7479452054795 </FixingDate>
+												<PayDate>   0.7479450000000 </PayDate>
+												<IDLeg> 1004 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>   0.0000000000000 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>  0.0000000000000  ;   0.0000000922560 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   0.4958904109589 </FixingDate>
+												<PayDate>   0.4958900000000 </PayDate>
+												<IDLeg> 1003 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>   0.0000000000000 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>  0.0000000000000  ;   0.0000000922560 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   0.2493150684932 </FixingDate>
+												<PayDate>   0.2493150000000 </PayDate>
+												<IDLeg> 1002 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>   0.0000000000000 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>  0.0000000000000  ;   0.0000000922560 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+											<Density>
+												<FixingDate>   0.0000000000000 </FixingDate>
+												<PayDate>   0.0000000000000 </PayDate>
+												<IDLeg> 1001 </IDLeg>
+												<CashFlowTypology> 0 </CashFlowTypology>
+												<Expectation>   0.0000000000000 </Expectation>
+												<ConditionalDensity> Callable </ConditionalDensity>
+												<OneDCurve>
+													<InterpolationMethod> PieceWise </InterpolationMethod>
+													<NumberOfElements> 2 </NumberOfElements>
+													<Buckets>  0.0000000000000  ;   0.0000000922560 </Buckets>
+													<Values>  1.0000000000000  ;   0.0000000000000 </Values>
+												</OneDCurve>
+												<ExpectationExerciseDate>   0.0000000000000  </ExpectationExerciseDate>
+											</Density>
+										</MCDensity>
+										<VariableSns>
+											<NumberOfElements> 1 </NumberOfElements>
+											<VariableSnsList>
+												<ASns> 0 ; 0 ; 10 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ; 0.000000 ;   0.0042160039721  </ASns>
+											</VariableSnsList>
+										</VariableSns>
+									</Variable>
+								</Variables>
+							</VariablesList>
+						</QRResult>
+					</QRResults>
+				</QRResultsList>
+			</Query>
+		</Queries>
+	</QueriesList>
+	<ErrorsList>
+		<NumberOfElements> 2 </NumberOfElements>
+		<Errors>
+			<CalibrationFailed>
+				<ErrorNb> 2 </ErrorNb>
+				<Error>
+					<ErrorID> 3 </ErrorID>
+					<ErrorLabel>CalibrationInstrumentsDataError</ErrorLabel>
+				</Error>
+				<Error>
+					<ErrorID> 70 </ErrorID>
+					<ErrorLabel>InstrumentCalibrationSkipped</ErrorLabel>
+					<ErrorProcessType> Rate </ErrorProcessType>
+					<ErrorProcessID> 0 </ErrorProcessID>
+				</Error>
+			</CalibrationFailed>
+		</Errors>
+	</ErrorsList>
+	<Profiling>
+		<AMCStrategyFeature>
+			<AMCStrategyName> DiffusionBackUpNaive </AMCStrategyName>
+			<AMCPlatformBackUp> Host </AMCPlatformBackUp>
+			<EvalGroupSize> 1 </EvalGroupSize>
+			<PathGroupSize> 16382 </PathGroupSize>
+		</AMCStrategyFeature>
+		<NumericalSettings>
+			<EffectiveTimeStep> 222 </EffectiveTimeStep>
+			<EffectivePath> 16382 </EffectivePath>
+		</NumericalSettings>
+		<TotalQueriesTime>6.632700 </TotalQueriesTime>
+		<TotalCalibrationTime>0.000100 </TotalCalibrationTime>
+		<PayoffTime>5.774100 </PayoffTime>
+		<TotalNumberOfCalibrations> 2 </TotalNumberOfCalibrations>
+	</Profiling>
+	<PastCashFlowsInfo>
+		<AcceptTodayCashFlows> 0 </AcceptTodayCashFlows>
+		<ProductKilled> 0 </ProductKilled>
+		<ProductKilledToday> 0 </ProductKilledToday>
+		<KillDate>   0.0000000000000  </KillDate>
+		<PayFailedFixingMissing> 0 </PayFailedFixingMissing>
+		<FixingMissing> 0 </FixingMissing>
+		<MinDateFixingMissing> -2000.0000000000000  </MinDateFixingMissing>
+		<FlowsList>
+			<NumberOfFlows> 0 </NumberOfFlows>
+			<Flows/>
+		</FlowsList>
+	</PastCashFlowsInfo>
+</MacsML>

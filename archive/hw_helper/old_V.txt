@@ -1,0 +1,24 @@
+def old_V(t, T, u, a, sigma):
+    if isinstance(sigma, float):
+        return sigma**2 * _v(t, T, u, a)
+    elif isinstance(sigma, rates.Curve):
+        total_var = 0.
+        expiry = T
+        previous_expiries = [t_exp for t_exp in sigma.buckets if t_exp <= expiry]
+        assert previous_expiries[0] == 0, 'first expiry should be always zero'
+        previous_sigmas = list(sigma.values[:len(previous_expiries)])
+        
+
+        if previous_expiries[-1] != expiry:
+            assert previous_expiries[-1] < expiry, 'always true (by construction)'
+            if len(previous_expiries) == 1:
+                return 0.
+            previous_sigmas.append(sigma.values[len(previous_expiries)])
+            previous_expiries.append(expiry)
+
+        for i in range(len(previous_expiries) - 1):
+            total_var += (previous_sigmas[i+1] ** 2) * _v(previous_expiries[i], previous_expiries[i+1], u, a)
+
+        return total_var
+    else:
+        TypeError(f'sigma should be float or rates.Curve not {type(sigma)}')

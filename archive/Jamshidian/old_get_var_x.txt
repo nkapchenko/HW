@@ -1,0 +1,19 @@
+def get_var_x(expiry, a, sigma):
+    assert  isinstance(sigma, (float, rates.Curve)), f'sigma: float or rates.Curve, not {type(sigma)}'
+    
+    if isinstance(sigma, float):
+        return 1 / (2 * a) * (1 - exp(-2 * a * expiry)) * sigma ** 2 
+    
+    elif isinstance(sigma, rates.Curve):
+        total_var = 0.
+        previous_expiries = [t_exp for t_exp in sigma.buckets if t_exp <= expiry]
+        previous_sigmas = list(sigma.values[:len(previous_expiries)])
+
+        if previous_expiries[-1] < expiry:
+            previous_sigmas.append(sigma.values[len(previous_expiries)])
+            previous_expiries.append(expiry)
+
+        for i in range(len(previous_expiries) - 1):
+            total_var += 1 / (2 * a) * (previous_sigmas[i+1] ** 2) * (exp(-2 * a * (expiry - previous_expiries[i+1])) - exp(-2 * a * (expiry - previous_expiries[i])))
+
+        return total_var

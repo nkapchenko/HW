@@ -1,0 +1,23 @@
+def old_get_alpha_i(a: float, expiry:float, hw_dates: np.ndarray, sigma):
+    assert hw_dates[0] > expiry, 'hw_dates should start after swo expiry'
+    assert  isinstance(sigma, (float, rates.Curve)), f'sigma: float or rates.Curve, not {type(sigma)}'
+
+
+    if isinstance(sigma, float):
+        total_var = np.sqrt(0.5 * (sigma ** 2) * (np.exp(2 * a * expiry) - 1) / a)
+        res = [total_var * (np.exp(-a * expiry) - np.exp(-a * t)) / a for t in hw_dates]
+        return np.array(res)
+    elif isinstance(sigma, rates.Curve):
+        total_var = 0.
+        previous_expiries = [t_exp for t_exp in sigma.buckets if t_exp <= expiry]
+        previous_sigmas = sigma.values[:len(previous_expiries)]
+
+        if previous_expiries[-1] < expiry:
+            previous_sigmas.append(sigma.values[len(previous_expiries)])
+            previous_expiries.append(expiry)
+
+        for i in range(len(previous_expiries) - 1):
+            total_var += 0.5 * (previous_sigmas[i+1] ** 2) * (np.exp(2 * a * previous_expiries[i+1]) - np.exp(2 * a * previous_expiries[i])) / a
+
+        alpha_i = [sqrt(total_var) * (np.exp(-a * expiry) - np.exp(-a * t)) / a for t in hw_dates]
+        return np.array(alpha_i), total_var
